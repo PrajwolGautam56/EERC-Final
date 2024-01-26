@@ -8,7 +8,7 @@ import earthMapTexture from "../../public/texture/earthmap1k.jpg";
 import earthBumpTexture from "../../public/texture/earthbump.jpg";
 import earthCloudTexture from "../../public/texture/earthCloud.png";
 import galaxyTexture from "../../public/texture/galaxy.png";
-import "../CSS/earth.css"
+import "../CSS/earth.css";
 
 function Earth() {
   const canvasRef = useRef(null);
@@ -31,25 +31,23 @@ function Earth() {
     renderer = new THREE.WebGLRenderer({
       canvas: canvasRef.current,
       antialias: true,
-      alpha:true
+      alpha: true,
     });
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setPixelRatio(
       window.devicePixelRatio ? window.devicePixelRatio : 1
     );
     renderer.autoClear = false;
-    
 
     // Orbit control setup
     controls = new OrbitControls(camera, renderer.domElement);
-    controls.enabled=false;
+    controls.enabled = false;
 
     // Earth geometry
     const earthGeometry = new THREE.SphereGeometry(0.6, 32, 32);
 
     // Earth material
     const earthMaterial = new THREE.MeshPhongMaterial({
-
       map: new THREE.TextureLoader().load(earthMapTexture),
       bumpMap: new THREE.TextureLoader().load(earthBumpTexture),
       bumpScale: 0.3,
@@ -100,9 +98,7 @@ function Earth() {
     const Helper = new THREE.PointLightHelper(pointLight);
     scene.add(Helper);
 
-
-
-   //  Handling resizing
+    //  Handling resizing
     const handleResize = () => {
       camera.aspect = window.innerWidth / window.innerHeight;
       camera.updateProjectionMatrix();
@@ -120,7 +116,6 @@ function Earth() {
       cloudMesh.rotation.y -= 0.001;
       controls.update();
       render();
-    
     };
 
     animate();
@@ -138,7 +133,7 @@ function Earth() {
     }
   };
 
-  return <canvas ref={canvasRef} className="webgl earth" />;
+  return <canvas ref={canvasRef} className="webgl earth min-h-screen" />;
 }
 
 export default Earth;
