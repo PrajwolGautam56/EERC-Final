@@ -5,6 +5,7 @@ import Nav from "../components/Nav";
 import Newsletter from "../components/Newsletter";
 import ServicesDetail from "../components/ServicesDetail";
 import Project from "../components/Project";
+import  ProjectSection from "../components/ProjectSection";
 import FooterWithSocialMediaIcons from "../components/FooterWithSocialMediaIcons";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import About from "../components/About";
@@ -69,6 +70,7 @@ export default function Home() {
           <ServicesDetail />
 
           <Project />
+          
           <Team />
           <Newsletter />
           <FooterWithSocialMediaIcons />

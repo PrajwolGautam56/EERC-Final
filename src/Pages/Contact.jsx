@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import ContactPage from "../components/Contact";
 import Nav from "../components/Nav";
+import Contacts from "../components/Contacts";
 
 
 function classNames(...classes) {
@@ -25,7 +26,7 @@ console.log(message.current)
   return (
     <>
     <Nav />
-    <div className="isolate bg-white px-6 py-4 sm:py-32 lg:px-8">
+    {/* <div className="isolate bg-white px-6 py-4 sm:py-32 lg:px-8">
 
       <div
         className="absolute inset-x-0 top-[-5rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
@@ -142,8 +143,8 @@ console.log(message.current)
       </div>
 
       {console.log(firstname.current)}
-    </div>
-      
+    </div> */}
+      <Contacts />
 
     </>
     
