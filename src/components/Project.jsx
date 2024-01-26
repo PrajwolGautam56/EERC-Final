@@ -6,7 +6,7 @@ AOS.init();
 
 const Project = () => {
   return (
-    <section className=" dotted py-2">
+    <section className=" dotted  ">
       <br></br>
       <br></br>
       <div className="container mx-auto px-4">
@@ -28,19 +28,13 @@ const Project = () => {
           </p>
         </div>
 
-        {/* <h2 className="text-right text-3xl font-semibold text-gray-800 mb-8">
-          Our Projects
-        </h2>
-        <p className=" font-sans	 Montserrat text-2xl  text-gray-700   font-medium	 mx-auto">
-      <span className="text-[#5DB85E] text-right " >EERC </span>  
-      is a consulting and research institute registered in 6th May 2016 in
-       the Office of Company Registrar at Tripureshwor, Kathmandu.  
-      </p> */}
-        {/* Inside ProjectSection.js */}
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  gap-8">
-          <ProjectSection />
-        </div>
+        
+       
+          
+         
       </div>
+     <br></br>
+     < ProjectSection />
     </section>
   );
 };
