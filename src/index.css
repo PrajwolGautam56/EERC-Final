@@ -3,54 +3,53 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-body{
-    background-color: #F8F8F8;
-    
-    height: 100%;
+body {
+  background-color: #f8f8f8;
+
+  height: 100%;
 }
 
-.bgnav {
-    background-color: black;
-    width: 100%;
-    left: 0px;
+
+.titleFont {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.sub-title{
+    font-family: "Poppins", serif;
+    font-weight: 200;
 
 }
-
-.landing-home{
-    height:800px;
-    margin-top: -10px;
+.landing-home {
+  height: 800px;
+  margin-top: -10px;
 }
-.firstView{
-    margin-top: -50px;
+.firstView {
+  margin-top: -50px;
 }
 
-.dotted  {
-    --dot-bg: rgb(255, 255, 255);
-    --dot-color: rgb(0, 0, 0);
-    --dot-size: 1px;
-    --dot-space: 22px;
-      background:
-          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-          var(--dot-color);
-          
-         
-          background-attachment: fixed;
+.dotted {
+  --dot-bg: rgb(255, 255, 255);
+  --dot-color: rgb(0, 0, 0);
+  --dot-size: 1px;
+  --dot-space: 22px;
+  background: linear-gradient(
+        90deg,
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    linear-gradient(
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    var(--dot-color);
+
+  background-attachment: fixed;
   background-position: center;
- 
- 
-          
-  }
-
-
-  .maps{
+.maps{
     order:0;
     margin-top: 14% ;
     margin-left: 55%;
     height: 350px;
     width: 500px;
-
-
-  }
-
-     

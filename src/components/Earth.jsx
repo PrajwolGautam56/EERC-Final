@@ -42,7 +42,7 @@ function Earth() {
     controls.enabled = false;
 
     // Earth geometry
-    const earthGeometry = new THREE.SphereGeometry(0.6, 30, 30);
+    const earthGeometry = new THREE.SphereGeometry(0.5, 30, 30);
 
     // Earth material
     const earthMaterial = new THREE.MeshPhongMaterial({
@@ -57,7 +57,7 @@ function Earth() {
     earthMesh.position.x = 1;
 
     // Cloud geometry
-    const cloudGeometry = new THREE.SphereGeometry(0.63, 32, 32);
+    const cloudGeometry = new THREE.SphereGeometry(0.53, 32, 32);
 
     // Cloud material
     const cloudMaterial = new THREE.MeshPhongMaterial({

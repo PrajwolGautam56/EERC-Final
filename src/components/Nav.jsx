@@ -44,49 +44,46 @@ const Nav = () => {
 
   return (
     <nav>
-      <div className=" flex justify-between z-50 text-white lg:py-5 px-20 my-1 mx-1 py-4 bgnav backdrop-blur bg-white/5">
-        <div className="flex items-center flex-1">
-          <img src="../../public/images/eercLogo.png" className="h-12" />
+      <div className=" flex flex-wrap justify-between   z-50 text-white lg:py-5 px-20 my-1 mx-1 py-4  bg-transparent  ">
+        <img src="public/images/eercLogo.png" className="h-12" />
+        <div className="flex  md:ml-12  xl:ml-60 ">
+          <ui className="flex  space-x-0 gap-8 mr-6 text-[18px] mt-4 list-none">
+            <Link to="/">
+              <li className="hover:text-fuchsia-600 transition  hover:border-fuchsia-600 cursor-pointer">
+                Home
+              </li>
+            </Link>
+            <Link to="/about">
+              <li className="hover:text-fuchsia-600 transition  hover:border-fuchsia-600 cursor-pointer">
+                About
+              </li>
+            </Link>
+            <Link to="/blogs">
+              <li className="hover:text-fuchsia-600 transition  hover:border-fuchsia-600 cursor-pointer">
+                Blog
+              </li>
+            </Link>
+            <Link to="/projects">
+              <li className="hover:text-fuchsia-600 transition  hover:border-fuchsia-600 cursor-pointer">
+                Projects
+              </li>
+            </Link>
+            <Link to="/contact">
+              <li className="hover:text-fuchsia-600 transition  hover:border-fuchsia-600 cursor-pointer">
+                Contact
+              </li>
+            </Link>
+          </ui>
         </div>
-        <div className="lf:flex md:flex lg: flex-1  items center justify-end font-normal hidden ">
-          <div className="flex-10">
-            <ui className="flex gap-8 mr-6 text-[18px] list-none">
-              <Link to="/">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
-                  Home
-                </li>
-              </Link>
-              <Link to="/about">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
-                  About
-                </li>
-              </Link>
-              <Link to="/blogs">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
-                  Blog
-                </li>
-              </Link>
-              <Link to="/projects">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
-                  Projects
-                </li>
-              </Link>
-              <Link to="/contact">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
-                  Contact
-                </li>
-              </Link>
-
-              <Button gradientMonochrome="pink" className="right-0">
-                <a
-                  href="#"
-                  className="text-sm font-semibold leading-6 text-gray-900 right-0"
-                >
-                  Contact <span aria-hidden="true">&rarr;</span>
-                </a>
-              </Button>
-            </ui>
-          </div>
+        <div className="flex justify-end ">
+          <Button gradientMonochrome="pink" className="right-0 mt-4 ml-64">
+            <a
+              href="#"
+              className="text-sm font-semibold leading-6 text-gray-900 right-0"
+            >
+              Contact <span aria-hidden="true">&rarr;</span>
+            </a>
+          </Button>
         </div>
 
         <div>{click && content}</div>
