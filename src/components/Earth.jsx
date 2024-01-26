@@ -1,9 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-import Stats from "three/examples/jsm/libs/stats.module.js";
 
-// Import your texture images
 import earthMapTexture from "../../public/texture/earthmap1k.jpg";
 import earthBumpTexture from "../../public/texture/earthbump.jpg";
 import earthCloudTexture from "../../public/texture/earthCloud.png";
@@ -44,7 +42,7 @@ function Earth() {
     controls.enabled = false;
 
     // Earth geometry
-    const earthGeometry = new THREE.SphereGeometry(0.6, 32, 32);
+    const earthGeometry = new THREE.SphereGeometry(0.6, 30, 30);
 
     // Earth material
     const earthMaterial = new THREE.MeshPhongMaterial({
@@ -98,15 +96,30 @@ function Earth() {
     const Helper = new THREE.PointLightHelper(pointLight);
     scene.add(Helper);
 
-    //  Handling resizing
     const handleResize = () => {
-      camera.aspect = window.innerWidth / window.innerHeight;
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+
+      camera.aspect = width / height;
       camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setSize(width, height);
+
+      // For Adjusting the size of the Earth geometry based on the screen width
+      const scaleFactor = width < 1250 ? 0.6 : 1; 
+      earthMesh.scale.set(scaleFactor, scaleFactor, scaleFactor);
+
+      const cloudScaleFactor = width < 1250 ? 0.63 : 1; 
+      cloudMesh.scale.set(cloudScaleFactor, cloudScaleFactor, cloudScaleFactor);
+      const padding = width < 1200 ? -0.5 : 0; // Padding when screen size is below 1200
+
+      earthMesh.position.x = 1 + padding;
+      earthMesh.position.y = 0.1; // Adjust Earth's y position
+      cloudMesh.position.x = 1 + padding;
+      cloudMesh.position.y = 0.1;
       render();
     };
 
-    window.addEventListener("resize", handleResize, false);
+    window.addEventListener("resize", handleResize);
 
     // Animation loop
     const animate = () => {
@@ -123,7 +136,6 @@ function Earth() {
     // Cleanup on unmount
     return () => {
       window.removeEventListener("resize", handleResize);
-      // Additional cleanup, if needed
     };
   }, []);
 
@@ -133,7 +145,14 @@ function Earth() {
     }
   };
 
-  return <canvas ref={canvasRef} className="webgl earth min-h-screen" />;
+  return (
+    <div className="webgl earth min-h-screen bg-black">
+      <canvas
+        ref={canvasRef}
+        className="webgl earth hidden md:block  lg:w-2/3 lg:mx-auto"
+      />
+    </div>
+  );
 }
 
 export default Earth;

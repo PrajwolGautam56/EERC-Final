@@ -16,10 +16,13 @@ export default function Home() {
       <Nav />
       <div className="flex flex-row">
         <div className="basis-5/5 -mt-12">
-          <div className="banner-content-two px-28 pt-32  firstView text-[#ffffff] ">
-          <br></br> <br></br><br></br>
-            <span className="sub-title text-2xl ">Hi, Welcome</span>
-            <h2 className="title py-4 font-extrabold text-7xl  tracking-wide">
+          <div className="banner-content-two min-[400px]:px-8 min-[1250px]:px-28 pt-32  firstView text-[#ffffff] ">
+            <br></br> <br></br>
+            <br></br>
+            <span className="sub-title  sm:text-lg lg:text-2xl ">
+              Hi, Welcome
+            </span>
+            <h2 className="title py-4 font-extrabold sm:text-6xl md:text-5xl min-[1200px]:text-7xl  tracking-wide">
               Empowering The <br />{" "}
               <span className="text-[#5DB85E]">Environment</span>
               <br /> Change Through
