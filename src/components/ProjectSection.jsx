@@ -4,42 +4,41 @@ import React from "react";
 const ProjectSection = () => {
   return (
     <>
-      <div className="bg-white rounded-lg shadow-lg  mt-8   md:h-[750px] mb-56">
+      <div className="bg-white rounded-lg shadow-lg sm:m-0 sm:p-0 mt-8 md:h-[750px] mb-56">
         <img
           src="../../public/images/services/1.png"
           alt="Project 2"
           className="w-full h-48 object-contain"
         />
-        <div className="p-4">
-          <h3 className="text-xl font-semibold text-gray-800 mb-2">
+        <div className="sm:p-0 md:p-4">
+          <h3 className="text-xl font-semibold w-full text-gray-800 lg:mb-2">
             Disaster Preparedness and Response Plan (DPRP) preparation of
             Godaita Municipality (Sarlahi), Sunachari Rural Municipality (Rolpa)
             and Sandikharka Municipality
           </h3>
-          <p className="text-gray-600">
+          <p className="text-gray-600 w-full">
             <b>Project Duration: 30 August 2022 -15 December 2022</b>
-            <br></br>
+            <br />
             <b>Work:</b>
             <ul>
               <li>
-                {" "}
                 • Initial coordination, thematic working group formation,
                 Eluster formation and orientation
               </li>
               <li>
                 • Review and analyze the vulnerability risk and capacity
-                assessment of ward and community level along with development of
-                municipal disaster risk profile.
+                assessment of ward and community level along with the
+                development of municipal disaster risk profile.
               </li>
               <li>
-                • Facilitation of DPRP development related training with
+                • Facilitation of DPRP development-related training with the
                 integration of SR and GBY concerns in disaster management.
               </li>
               <li>
                 • Conduct various stakeholder consultations, Focus Group
-                Discussion (FGD)and key informant interviews (KI) meetings and
-                workshops with ward level key stakeholders during collect
-                validation, plan development and endorsement process.
+                Discussion (FGD), and key informant interviews (KI) meetings and
+                workshops with ward-level key stakeholders during collect
+                validation, plan development, and endorsement process.
               </li>
               <li>
                 • Prepare a draft plan incorporating GBY and Sexual Reproductive
@@ -47,11 +46,12 @@ const ProjectSection = () => {
               </li>
               <li>
                 • Finalizing the plan by incorporating the input and
-                dissemination of plan with stakeholders.
+                dissemination of the plan with stakeholders.
               </li>
               <li>
-                • Prepare final municipality DPRP with incorporation of feedback
-                and suggestion for endorsement success in their future endeavor.
+                • Prepare the final municipality DPRP with the incorporation of
+                feedback and suggestions for endorsement success in their future
+                endeavor.
               </li>
             </ul>
           </p>
