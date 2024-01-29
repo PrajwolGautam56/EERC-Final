@@ -11,7 +11,7 @@ export default function FooterWithSocialMediaIcons() {
           <div>
             <Footer.Brand
               alt="Flowbite Logo"
-              href="https://flowbite.com"
+              href="#"
               name="EERC"
               src="https://flowbite.com/docs/images/logo.svg"
             />

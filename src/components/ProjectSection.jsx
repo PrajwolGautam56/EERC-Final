@@ -9,6 +9,8 @@ const ProjectSection = () => {
 
   {/* PROJECT 1 */}
       <div className="bg-white rounded-lg shadow-lg     ">
+
+      <div className="bg-pink">
         <img
           src="../../public/images/services/1.png"
           alt="Project 2"
@@ -60,6 +62,7 @@ const ProjectSection = () => {
             </ul>
           </p>
         </div>
+      </div>
       </div>
 
       {/* PROJECT 2 */}
@@ -265,6 +268,7 @@ const ProjectSection = () => {
       </div>
 
 
+   
     </div>
       
     </>
