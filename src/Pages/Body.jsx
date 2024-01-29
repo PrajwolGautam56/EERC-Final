@@ -27,16 +27,10 @@ function Body() {
       path: "/projects",
       element: <Projects />,
     },
-    {
-<<<<<<< HEAD
-      path: "/contact",
-=======
-      path: "projects1",
-      element: <ProjectSection />,
-    },
+
     {
       path: "contact",
->>>>>>> 6157db1d387831d81dfcab6a57ce4097fd1b8a51
+
       element: <Contact />,
     },
   ]);
