@@ -4,23 +4,29 @@ import React from "react";
 const ProjectSection = () => {
   return (
     <>
-      <div className="bg-white rounded-lg shadow-lg sm:m-0 sm:p-0 mt-8 md:h-[750px] mb-56">
+     <div className="grid sm:grid-cols-1   md:grid-cols-1 lg:grid-cols-2  gap-8">
+
+
+  {/* PROJECT 1 */}
+      <div className="bg-white rounded-lg shadow-lg     ">
+
+      <div className="bg-pink">
         <img
           src="../../public/images/services/1.png"
           alt="Project 2"
           className="w-full h-48 object-contain"
         />
-        <div className="sm:p-0 md:p-4">
-          <h3 className="text-xl font-semibold w-full text-gray-800 lg:mb-2">
-            Disaster Preparedness and Response Plan (DPRP) preparation of
+        <div className="p-4  md:p-4">
+          <h3 className="text-xl font-semibold w-full text-gray-800 lg:mb-2  ">
+            1.Disaster Preparedness and Response Plan (DPRP) preparation of
             Godaita Municipality (Sarlahi), Sunachari Rural Municipality (Rolpa)
             and Sandikharka Municipality
           </h3>
-          <p className="text-gray-600 w-full">
+          <p className="text-gray-600 w-full  p-2 ">
             <b>Project Duration: 30 August 2022 -15 December 2022</b>
             <br />
             <b>Work:</b>
-            <ul>
+            <ul className="p-4">
               <li>
                 • Initial coordination, thematic working group formation,
                 Eluster formation and orientation
@@ -57,9 +63,10 @@ const ProjectSection = () => {
           </p>
         </div>
       </div>
+      </div>
 
       {/* PROJECT 2 */}
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden sm:mt-8  md:mt-96 h-[700px] ">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden sm:mt-2  lg:mt-20   ">
         <img
           src="../../public/images/services/1.png"
           alt="Project 2"
@@ -71,11 +78,11 @@ const ProjectSection = () => {
             Support for Improving Capacity of Municipalities for Ecosystem based
             Adaptation and Community Led Initiatives for Covid-19 Response.
           </h3>
-          <p className="text-gray-600">
+          <p className="text-gray-600 p-2">
             <b>Project Duration: 11 September 2020 - 31 December 2020</b>
             <br></br>
             <b>Work:</b>
-            <ul>
+            <ul className="p-4">
               <li>
                 • Initial, Coordination, Committee formation and orientation.
               </li>
@@ -112,7 +119,7 @@ const ProjectSection = () => {
       </div>
 
       {/* Project 3 */}
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden   md:mb-40 -mt-72 h-[600px]">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden   lg:mt-20">
         <img
           src="../../public/images/services/1.png"
           alt="Project 2"
@@ -124,11 +131,11 @@ const ProjectSection = () => {
             Study of Soil Erosion, Landslides and Hazard Mapping as well as
             Profiling in Gandaki Province
           </h3>
-          <p className="text-gray-600">
+          <p className="text-gray-600 p-2">
             <b>Project Duration: February - June 2021</b>
             <br></br>
             <b>Work:</b>
-            <ul>
+            <ul className="p-4">
               <li>
                 • Identification of the soil erosion status in Gandaki Province,
               </li>
@@ -153,7 +160,7 @@ const ProjectSection = () => {
       </div>
       {/* Project 4 */}
 
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden mt-8  md:mt-16 h-[600px]">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden mt-8   ">
         <img
           src="../../public/images/services/1.png"
           alt="Project 2h-[800px]"
@@ -164,11 +171,11 @@ const ProjectSection = () => {
             Initial Environment Examination (IEE) for construction of Abattoir
             in Kohalpur Municipality, Nepal
           </h3>
-          <p className="text-gray-600">
+          <p className="text-gray-600 p-2">
             <b>Project Duration: 6 months (July 2021- January 2022)</b>
             <br></br>
             <b>Work:</b>
-            <ul>
+            <ul className="p-4">
               <li>
                 • Consultation with local community and municipal officials
               </li>
@@ -189,7 +196,7 @@ const ProjectSection = () => {
 
       {/* Project 5 */}
 
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden h-96 mt-8 mb-72 md:-mt-72 h-[600px]">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden  mb-2 ">
         <img
           src="../../public/images/services/1.png"
           alt="Project 2"
@@ -201,11 +208,11 @@ const ProjectSection = () => {
             Initial Environmental Examination (IEE) of Karaputar- Gilung-
             Daduwa- Gilung-Salmebhanjyang road (23 km){" "}
           </h3>
-          <p className="text-gray-600">
+          <p className="text-gray-600 p-2">
             <b>Project Duration: 2077/06/29 to 2078/03/30</b>
             <br></br>
             <b>Work:</b>
-            <ul>
+            <ul className="p-4">
               <li>
                 • Consultation with local community and concerned r/municipality
                 officials
@@ -229,7 +236,7 @@ const ProjectSection = () => {
 
       {/* Project 6  */}
 
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden mt-8  md:mt-16 h-[600px]">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden mt-8       lg:mt-20">
         <img
           src="../../public/images/services/1.png"
           alt="Project 2h-[800px]"
@@ -237,15 +244,15 @@ const ProjectSection = () => {
         />
         <div className="p-4">
           <h3 className="text-xl font-semibold text-gray-800 mb-2">
-            Initial Environmental Examination (IEE) Study of Construction and
+            6.Initial Environmental Examination (IEE) Study of Construction and
             Operation of Godawari Technical School at Godawari Municipality
             Ward-02, Lalitpur
           </h3>
-          <p className="text-gray-600">
+          <p className="text-gray-600 p-2">
             <b>Project Duration: 6 months </b>
             <br></br>
             <b>Work:</b>
-            <ul>
+            <ul className="p-4">
               <li>
                 • Field visit by experts, Baseline Data collection on Physical,
                 Biological and Socio-Economic Environment, Impact Analysis and
@@ -254,11 +261,16 @@ const ProjectSection = () => {
               <li>• TOR Preparation and Submission.</li>
               <li> • Public hearing and public consultation.</li>
               <li>• Draft report preparation and presentation.</li>
-              <li>•• Final report submission incorporating the feedback.</li>
+              <li>• Final report submission incorporating the feedback.</li>
             </ul>
           </p>
         </div>
       </div>
+
+
+   
+    </div>
+      
     </>
 
     // main

@@ -11,20 +11,20 @@ function ServicesDetail() {
       {/* Heading section for Services */}
       <div
         data-aos=" justify zoom-in"
-        className="dotted mx-1 text-5xl font-extrabold   h-60"
+        className="  mx-1 lg:text-5xl font-extrabold  "
       >
         <div className="title py-4 font-extrabold text-2xl  tracking-wide ">
           <h1 className="text-left text-amber-500	"> Our Services</h1>{" "}
         </div>
-        <p className=" font-sans	 Montserrat text-3xl  text-gray-700   font-medium	 mx-auto">
-      <span className="text-[#5DB85E] " >EERC </span>  
+        <p className=" font-sans	 Montserrat   text-gray-700    font-medium	 mx-auto sm:text-sm">
+      <span className="text-[#5DB85E] sm:text-xl " >EERC </span>  
       is a consulting and research institute registered in  <br></br> 6th May 2016
        the Office of Company Registrar Kathmandu.  
       </p>
       </div>
 
       {/* Content section for rendering services from JSON  */}
-      <div className="mt-5 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="mt-5  grid grid-cols-1 md:grid-cols-3 gap-8">
         {services.services.map((service) => {
          
           return (

@@ -5,6 +5,7 @@ import Blogs from "./Blogs";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Home from "./Home";
+import ProjectSection from "../components/ProjectSection";
 
 function Body() {
   const appRouter = createBrowserRouter([
@@ -27,7 +28,15 @@ function Body() {
       element: <Projects />,
     },
     {
+<<<<<<< HEAD
       path: "/contact",
+=======
+      path: "projects1",
+      element: <ProjectSection />,
+    },
+    {
+      path: "contact",
+>>>>>>> 6157db1d387831d81dfcab6a57ce4097fd1b8a51
       element: <Contact />,
     },
   ]);
