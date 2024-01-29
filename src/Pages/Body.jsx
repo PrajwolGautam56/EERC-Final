@@ -19,15 +19,15 @@ function Body() {
       element: <About />,
     },
     {
-      path: "blogs",
+      path: "/blogs",
       element: <Blogs />,
     },
     {
-      path: "projects",
+      path: "/projects",
       element: <Projects />,
     },
     {
-      path: "contact",
+      path: "/contact",
       element: <Contact />,
     },
   ]);
