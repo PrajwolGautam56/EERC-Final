@@ -5,7 +5,6 @@ import Blogs from "./Blogs";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Home from "./Home";
-import ProjectSection from "../components/ProjectSection";
 
 function Body() {
   const appRouter = createBrowserRouter([

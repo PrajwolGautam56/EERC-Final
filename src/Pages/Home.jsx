@@ -5,7 +5,7 @@ import Nav from "../components/Nav";
 import Newsletter from "../components/Newsletter";
 import ServicesDetail from "../components/ServicesDetail";
 import Project from "../components/Project";
-import  ProjectSection from "../components/ProjectSection";
+import ProjectSection from "../components/ProjectSection";
 import FooterWithSocialMediaIcons from "../components/FooterWithSocialMediaIcons";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import About from "../components/About";
@@ -14,7 +14,7 @@ import Team from "../components/Team";
 export default function Home() {
   return (
     <div className="landing-home">
-      <Nav />
+      <Nav className="z-50" />
       <div className="flex flex-row">
         <div className="basis-5/5 -mt-12">
           <div className="banner-content-two  min-[10px]:pl-5 min-[400px]:px-8 min-[1250px]:px-28 pt-40  firstView text-[#ffffff] ">
@@ -69,7 +69,7 @@ export default function Home() {
           <ServicesDetail />
 
           <Project />
-          
+
           <Team />
           <Newsletter />
           <FooterWithSocialMediaIcons />
