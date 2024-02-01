@@ -50,32 +50,32 @@ function Nav() {
           } w-full md:block md:w-auto`}
           id="navbar-default"
         >
-          <ul className="font-medium flex flex-col md:flex-row items-stretch items-center p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-20 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="font-medium flex flex-col md:flex-row  items-center p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50  md:space-x-20 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <Link to="/">
               <li
-                className="block py-2 px-3 text-white  rounded md:bg-transparent  hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 px-3     min-w-[0px]: text-black  min-w-[778px]:text-white    rounded md:bg-transparent  hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent"
                 aria-current="page"
               >
                 Home
               </li>
             </Link>
             <Link to="/about">
-              <li className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent">
+              <li className="block py-2 px-3     min-w-[0px]: text-black  min-w-[778px]:text-white  rounded      hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent">
                 About
               </li>
             </Link>
             <Link to="/blogs">
-              <li className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent">
+              <li className="block py-2 px-3 min-w-[0px]: text-black  min-w-[778px]:text-white  hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent">
                 Blog
               </li>
             </Link>
             <Link to="/projects">
-              <li className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent">
+              <li className="block py-2 px-3 rounded   min-w-[0px]: text-black  min-w-[778px]:text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent">
                 Projects
               </li>
             </Link>
             <Link to="/contact">
-              <li className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent">
+              <li className="block py-2 px-3 rounded   min-w-[0px]: text-black  min-w-[778px]:text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent">
                 Contact
               </li>
             </Link>
