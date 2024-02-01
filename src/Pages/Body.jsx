@@ -26,6 +26,11 @@ function Body() {
       path: "/projects",
       element: <Projects />,
     },
+    {
+      path: "gallery",
+
+      element: <Contact />,
+    },
 
     {
       path: "contact",
