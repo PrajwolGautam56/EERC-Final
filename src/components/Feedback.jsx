@@ -2,7 +2,7 @@
 
 export default function Feedback() {
 	return(
-		<div className="absolute mt-52 ml-48
+		<div className="absolute mt-52 ml-48 sm:block
 						w-1/3 float-left border-2 p-2 
 						rounded-xl shadow-xl text-xl">
 			<form>

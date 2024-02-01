@@ -1,28 +1,37 @@
 const people = [
     {
       name: 'Ajay Shrestha',
-      role: '',
-      imageUrl:
-        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fnp.linkedin.com%2Fin%2Fprajwol-gautam-4b72651a7&psig=AOvVaw1IUzqxL6Sy2UXlYmdEh0pl&ust=1694621484774000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCOiK75C7pYEDFQAAAAAdAAAAABAD'
+      role: 'Managing Director',
+      imageUrl:'public/images/team/ajay.jpg'
     },
     {
         name: 'Purranjan Sapkota',
-        role: '',
+        role: 'GIS & RS Analyst',
         imageUrl:
           'https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FPrajwolgautam0&psig=AOvVaw2HvDv-TwUHK7y-EJPAK6XW&ust=1694620293027000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIi6kti2pYEDFQAAAAAdAAAAABAD',
       },
       {
-        name: 'Hello World',
+        name: 'Annan Shrestha',
         role: 'Co-Founder / CEO',
-        imageUrl:
-          'https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FPrajwolgautam0&psig=AOvVaw2HvDv-TwUHK7y-EJPAK6XW&ust=1694620293027000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIi6kti2pYEDFQAAAAAdAAAAABAD',
+        imageUrl:'public/images/team/annan.jpg'
+                },
+      {
+        name: 'Bijaya Rai',
+        role: 'Senior Environment Researcher',
+        imageUrl: 'public/images/team/bijaya.jpg'
+          
       },
       {
-        name: 'Hello World',
-        role: 'Co-Founder / CEO',
-        imageUrl:
-          'https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FPrajwolgautam0&psig=AOvVaw2HvDv-TwUHK7y-EJPAK6XW&ust=1694620293027000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIi6kti2pYEDFQAAAAAdAAAAABAD',
-      },
+        name: 'Avash Poudel',
+        role: 'DRRM-CAA Expert',
+        imageUrl:'public/images/team/avash.jpg'
+              },
+      {
+        name: 'Tara Ale',
+        role: 'Environment Researcher',
+        imageUrl:'public/images/team/tara.jpg'
+        },
+      
       
     // More people...
   ]
@@ -34,7 +43,7 @@ const people = [
           <div className="max-w-2xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our Team</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Meet Our Team
+             
             </p>
           </div>
           <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">

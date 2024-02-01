@@ -4,21 +4,21 @@ import React from "react";
 const ProjectSection = () => {
   return (
     <>
-     <div className="grid sm:grid-cols-1   md:grid-cols-1 lg:grid-cols-2  gap-8">
+     <div className="grid sm:grid-cols-1   md:grid-cols-1 lg:grid-cols-2  gap-8 p-8">
 
 
   {/* PROJECT 1 */}
-      <div className="bg-white rounded-lg shadow-lg     ">
+      <div className="  rounded-lg shadow-lg   bg-orange-100  ">
 
-      <div className="bg-pink">
+      <div className=" 	py-6 ">
         <img
-          src="../../public/images/services/1.png"
+          src="../../public/images/projects/1.jpeg"
           alt="Project 2"
-          className="w-full h-48 object-contain"
+          className="w-full h-58 object-cover  p-2"
         />
-        <div className="p-4  md:p-4">
+        <div className="p-4  md:p-4  width-90%">
           <h3 className="text-xl font-semibold w-full text-gray-800 lg:mb-2  ">
-            1.Disaster Preparedness and Response Plan (DPRP) preparation of
+            Disaster Preparedness and Response Plan (DPRP) preparation of
             Godaita Municipality (Sarlahi), Sunachari Rural Municipality (Rolpa)
             and Sandikharka Municipality
           </h3>
@@ -66,11 +66,11 @@ const ProjectSection = () => {
       </div>
 
       {/* PROJECT 2 */}
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden sm:mt-2  lg:mt-20   ">
+      <div className="  rounded-lg shadow-lg overflow-hidden sm:mt-2  lg:mt-20  bg-red-200 ">
         <img
-          src="../../public/images/services/1.png"
+          src="../../public/images/projects/2.jpeg"
           alt="Project 2"
-          className="w-full h-48 object-contain"
+          className="w-full h-58 object-cover  p-2"
         />
 
         <div className="p-4">
@@ -119,11 +119,11 @@ const ProjectSection = () => {
       </div>
 
       {/* Project 3 */}
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden   lg:mt-20">
+      <div className=" rounded-lg shadow-lg overflow-hidden   lg:mt-20 bg-purple-200">
         <img
-          src="../../public/images/services/1.png"
+          src="../../public/images/projects/3.jpeg"
           alt="Project 2"
-          className="w-full h-48 object-contain"
+          className="w-full h-58 object-cover  p-2"
         />
 
         <div className="p-4">
@@ -160,11 +160,11 @@ const ProjectSection = () => {
       </div>
       {/* Project 4 */}
 
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden mt-8   ">
+      <div className="  rounded-lg shadow-lg overflow-hidden mt-8 bg-blue-100  ">
         <img
-          src="../../public/images/services/1.png"
+          src="../../public/images/projects/4.jpeg"
           alt="Project 2h-[800px]"
-          className="w-full h-48 object-contain"
+          className="w-full h-58 object-cover  p-2"
         />
         <div className="p-4">
           <h3 className="text-xl font-semibold text-gray-800 mb-2">
@@ -196,11 +196,11 @@ const ProjectSection = () => {
 
       {/* Project 5 */}
 
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden  mb-2 ">
+      <div className=" rounded-lg shadow-lg overflow-hidden  mb-2 bg-green-200">
         <img
-          src="../../public/images/services/1.png"
+          src="../../public/images/projects/5.jpeg"
           alt="Project 2"
-          className="w-full h-48 object-contain"
+          className="w-full h-58 object-cover  p-2"
         />
 
         <div className="p-4">
@@ -236,15 +236,15 @@ const ProjectSection = () => {
 
       {/* Project 6  */}
 
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden mt-8       lg:mt-20">
+      <div className="  rounded-lg shadow-lg overflow-hidden mt-8  bg-yellow-100    lg:mt-20">
         <img
-          src="../../public/images/services/1.png"
+          src="../../public/images/projects/6.jpeg"
           alt="Project 2h-[800px]"
-          className="w-full h-48 object-contain"
+          className="w-full h-58 object-cover  p-2"
         />
         <div className="p-4">
           <h3 className="text-xl font-semibold text-gray-800 mb-2">
-            6.Initial Environmental Examination (IEE) Study of Construction and
+            Initial Environmental Examination (IEE) Study of Construction and
             Operation of Godawari Technical School at Godawari Municipality
             Ward-02, Lalitpur
           </h3>

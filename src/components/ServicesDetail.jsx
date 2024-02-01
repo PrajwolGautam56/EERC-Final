@@ -30,22 +30,23 @@ function ServicesDetail() {
           return (
             //
 
-            <div  key={service.serviceId}className="bg-white bg-opacity-20 backdrop-blur-lg rounded-lg shadow-lg hover:shadow-xl overflow-hidden flex flex-col md:flex-row transform transition-transform hover:scale-105">
+            <div  key={service.serviceId}className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 bg-opacity-20 backdrop-blur-lg rounded-lg shadow-lg hover:shadow-xl overflow-hidden flex flex-col md:flex-row transform transition-transform hover:scale-105">
+              
+              <div className="p-4">
+                <div className="relative">
+                  <img
+                    src={`public/images/services/${service.serviceId}.png`}
+                    alt="Service 1"
+                    className="w-20 h-20 object-cover rounded-full"
+                  />
+                </div>
+              </div>
               <div className="p-4 flex-1">
                 <h3 className="flex items-center text-xl font-semibold text-black mb-2">
                   <i className="mr-2 fas fa-wrench"></i>
                   {service.name}
                 </h3>
                 <p className="text-back-200">{service.description}</p>
-              </div>
-              <div className="p-4">
-                <div className="relative">
-                  <img
-                    src="../../public/images/services/1.png"
-                    alt="Service 1"
-                    className="w-20 h-20 object-cover rounded-full"
-                  />
-                </div>
               </div>
             </div>
             // </div>

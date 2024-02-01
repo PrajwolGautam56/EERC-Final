@@ -10,6 +10,8 @@ import FooterWithSocialMediaIcons from "../components/FooterWithSocialMediaIcons
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import About from "../components/About";
 import Team from "../components/Team";
+import Clients from "../components/Clients";
+import Area from "../components/Area";
 
 export default function Home() {
   return (
@@ -70,8 +72,12 @@ export default function Home() {
 
           <Project />
 
+          <Area />
+          
+
           <Team />
           <Newsletter />
+          <Clients />
           <FooterWithSocialMediaIcons />
         </div>
       </div>
