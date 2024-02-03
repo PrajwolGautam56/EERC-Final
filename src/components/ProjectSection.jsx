@@ -10,11 +10,11 @@ const ProjectSection = () => {
   {/* PROJECT 1 */}
       <div className="  rounded-lg shadow-lg   bg-orange-100  ">
 
-      <div className=" 	py-6 ">
+      <div className=" 	py-1 ">
         <img
           src="../../public/images/projects/1.jpeg"
-          alt="Project 2"
-          className="w-full h-58 object-cover  p-2"
+          alt="Project 1"
+          className="w-full h-58 object-cover  p-2 rounded-md"
         />
         <div className="p-4  md:p-4  width-90%">
           <h3 className="text-xl font-semibold w-full text-gray-800 lg:mb-2  ">

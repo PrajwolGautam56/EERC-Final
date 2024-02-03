@@ -6,7 +6,7 @@ AOS.init();
 
 const Project = () => {
   return (
-    <section className=" dotted  ">
+    <section className="    ">
       <br></br>
       <br></br>
       <div className="container mx-auto px-4">
