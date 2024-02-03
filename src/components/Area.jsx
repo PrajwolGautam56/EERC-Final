@@ -1,9 +1,49 @@
+
 import React from 'react'
 
+
+const icons = [
+  {
+     name : 'Disaster Risk Reduction & Management',
+    imageUrl:'public/images/icons/1.png'
+  },
+  {
+    name : 'Development Planning & Management',
+    imageUrl:'public/images/icons/2.png'
+  },
+  {
+    name : 'Digital Governance',
+    imageUrl:'public/images/icons/3.png'
+  },
+  {
+    name : 'Land Reform & Management',
+    imageUrl:'public/images/icons/4.png'
+  },
+  {
+    name : 'Climate Change & Environment',
+    imageUrl:'public/images/icons/5.png'
+  },
+  {
+    name : 'Agriculture', 
+    imageUrl:'public/images/icons/6.png'
+  },
+  {
+    name : 'Software Consulting & Digital Innovations',
+    imageUrl:'public/images/icons/7.png'
+  },
+  {
+    name : 'Heritage Conservation & Promotion',
+    imageUrl:'public/images/icons/8.png'
+  },
+   
+    
+    
+  // More people...
+]
 function Area() {
   return (
-    <div>
-        <div className="container mx-auto text-center py-5">
+    <div className='p-12 dotted'>
+        <div className="container mx-auto text-center p-5">
             <h2 className="font-sans Montserrat  text-sml font-bold text-amber-500	  mb-8">Areas of Work</h2>
             <p className=" font-sans	 Montserrat text-2xl  text-gray-700   font-medium	 mx-auto">
             <span className="text-[#5DB85E] " >EERC, </span>  
@@ -11,37 +51,34 @@ function Area() {
             </p>
             <br></br>
          </div>
-
-         {/* <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-         
-         
-            <div className="p-4"> 
-                <div className="">
-
-                </div>
-                  
-
-                  <h3 className="flex items-center text-xl font-semibold text-black mb-2">
-                  <i className="mr-2 fas fa-wrench"></i>
-                  1.Areas 
-                </h3>
-            </div>
-              
-         </div> */}
+ 
 
 
          <div >
-         <ul className="grid grid-cols-3 ml-48">
-           <li className='flex ' >
+         <ul className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-cols-1 lg:ml-48">
+         {icons.map((icon) => (
+         
+            <li key={icon.imageUrl} className='flex p-4' >
 
                 <img
-                    src="https://www.flaticon.com/free-icons/door-lock"
+                    src={icon.imageUrl}
                     alt="Service 1"
-                    className="w-20 h-20 object-cover rounded-full"
+                    className="w-14 h-14 object-cover rounded-full"
                   />
-                <p>Technology for DRRM</p>
+                <p className='p-2'>{icon.name}</p>
             </li>
-            <li className='flex  '>
+           
+            
+          
+         ))}
+          
+           
+
+
+
+
+
+            {/* <li className='flex lg:p-2 '>
 
 <img
     src="public/images/services/1.png"
@@ -49,7 +86,7 @@ function Area() {
     className="w-20 h-20 object-cover rounded-full"
   />
 <p>Digital Tool for Data Collection & Visualization</p>
-</li> <li className='flex '>
+</li> <li className='flex lg:p-2'>
 
 <img
     src={`public/images/services/1.png`}
@@ -58,7 +95,7 @@ function Area() {
   />
 <p>Digital Mapping</p>
 </li>
- <li className='flex '>
+ <li className='flex lg:p-2'>
 
 <img
     src={`public/images/services/1.png`}
@@ -66,7 +103,7 @@ function Area() {
     className="w-20 h-20 object-cover rounded-full"
   />
 <p>Web GIS</p>
-</li> <li className='flex'>
+</li> <li className='flex lg:p-2'>
 
 <img
     src={`public/images/services/1.png`}
@@ -74,7 +111,7 @@ function Area() {
     className="w-20 h-20 object-cover rounded-full"
   />
 <p>Drone Consulting Services</p>
-</li> <li className='flex'>
+</li> <li className='flex lg:p-2'>
 
 <img
     src={`public/images/services/1.png`}
@@ -82,7 +119,7 @@ function Area() {
     className="w-20 h-20 object-cover rounded-full"
   />
 <p>Geospatial Analysis</p>
-</li> <li className='flex'>
+</li> <li className='flex lg:p-2'>
 
 <img
     src={`public/images/services/1.png`}
@@ -90,7 +127,7 @@ function Area() {
     className="w-20 h-20 object-cover rounded-full"
   />
 <p>Map Literacy Trainings</p>
-</li> <li className='flex'>
+</li> <li className='flex lg:p-2'>
 
 <img
     src={`public/images/services/1.png`}
@@ -98,7 +135,7 @@ function Area() {
     className="w-20 h-20 object-cover rounded-full"
   />
 <p>Creative Graphic Design</p>
-</li> <li className='flex'>
+</li> <li className='flex lg:p-2'>
 
 <img
     src={`public/images/services/1.png`}
@@ -106,7 +143,7 @@ function Area() {
     className="w-20 h-20 object-cover rounded-full"
   />
 <p>Participatory Community Mapping (Hybrid Approach)</p>
-</li>
+</li> */}
    </ul>
           
             

@@ -12,6 +12,13 @@ import About from "../components/About";
 import Team from "../components/Team";
 import Clients from "../components/Clients";
 import Area from "../components/Area";
+import Ourteam from "../components/Ourteam";
+import Testimonial from "../components/Testimonial";
+import Gallery from "../components/Gallery";
+import data from "../data.json";
+
+ 
+
 
 export default function Home() {
   return (
@@ -75,9 +82,16 @@ export default function Home() {
           <Area />
           
 
-          <Team />
-          <Newsletter />
+        
+          <Ourteam />
+         
           <Clients />
+          <Testimonial testimonialData={data} />
+           
+          <Newsletter />
+          <Gallery />
+         
+          
           <FooterWithSocialMediaIcons />
         </div>
       </div>

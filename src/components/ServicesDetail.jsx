@@ -5,8 +5,8 @@ import services from "../API/services.json";
 function ServicesDetail() {
   return (
     <>
-    <hr></hr>
-    <section className="dotted  px-8">
+   
+    <section className="bg_service  px-8 py-12">
 
       {/* Heading section for Services */}
       <div
@@ -16,8 +16,8 @@ function ServicesDetail() {
         <div className="title py-4 font-extrabold text-2xl  tracking-wide ">
           <h1 className="text-left text-amber-500	"> Our Services</h1>{" "}
         </div>
-        <p className=" font-sans	 Montserrat   text-gray-700    font-medium	 mx-auto sm:text-sm">
-      <span className="text-[#5DB85E] sm:text-xl " >EERC </span>  
+        <p className=" font-sans	 Montserrat text-xl   text-gray-700   md:text-xl  font-medium	 mx-auto sm:text-sm py-8">
+      <span className="text-[#5DB85E] sm:text-xl md:text-2xl " >EERC </span>  
       is a consulting and research institute registered in  <br></br> 6th May 2016
        the Office of Company Registrar Kathmandu.  
       </p>
@@ -30,7 +30,7 @@ function ServicesDetail() {
           return (
             //
 
-            <div  key={service.serviceId}className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 bg-opacity-20 backdrop-blur-lg rounded-lg shadow-lg hover:shadow-xl overflow-hidden flex flex-col md:flex-row transform transition-transform hover:scale-105">
+            <div  key={service.serviceId} className="bg-transparent rounded backdrop-blur-sm shadow-lg hover:shadow-xl overflow-hidden flex flex-col md:flex-row transform transition-transform hover:scale-105">
               
               <div className="p-4">
                 <div className="relative">
@@ -53,8 +53,8 @@ function ServicesDetail() {
           );
         })}
       </div>
-      </section><br></br>
-      <hr></hr>
+      </section> 
+     
     </>
   );
 }
