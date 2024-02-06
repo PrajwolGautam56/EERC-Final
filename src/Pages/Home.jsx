@@ -17,9 +17,6 @@ import Testimonial from "../components/Testimonial";
 import Gallery from "../components/Gallery";
 import data from "../data.json";
 
- 
-
-
 export default function Home() {
   return (
     <div className="landing-home">
@@ -38,10 +35,7 @@ export default function Home() {
               <br />
             </h2>
             <div className="banner-content-bottom flex pt-12">
-              <Button
-                gradientMonochrome="pink"
-                className="rounded-3xl w-44 font-bold text-xl"
-              >
+              <Button className="rounded-3xl w-44  bg-[#4848FE] font-bold text-xl">
                 {" "}
                 <a href="contact.html" className="text-xl">
                   Contact Us <span></span>
@@ -80,18 +74,14 @@ export default function Home() {
           <Project />
 
           <Area />
-          
 
-        
           <Ourteam />
-         
+
           <Clients />
           <Testimonial testimonialData={data} />
-           
-          <Newsletter />
           <Gallery />
-         
-          
+          <Newsletter />
+
           <FooterWithSocialMediaIcons />
         </div>
       </div>

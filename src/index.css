@@ -9,15 +9,13 @@ body {
   height: 100%;
 }
 
-
 .titleFont {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
 }
-.sub-title{
-    font-family: "Poppins", serif;
-    font-weight: 200;
-
+.sub-title {
+  font-family: "Poppins", serif;
+  font-weight: 200;
 }
 .landing-home {
   height: 800px;
@@ -48,19 +46,18 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
-.maps{
-    order:0;
-    margin-top: 14% ;
-    margin-left: 55%;
-    height: 350px;
-    width: 500px;
+.maps {
+  order: 0;
+  margin-top: 14%;
+  margin-left: 55%;
+  height: 350px;
+  width: 500px;
 }
 
-.bg_service{
+.bg_service {
   background-image: url("/public/images/bg_service.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: contain; 
- backdrop-filter: blur(1px);
-  
+  background-size: cover;
+  backdrop-filter: blur(1px);
 }
