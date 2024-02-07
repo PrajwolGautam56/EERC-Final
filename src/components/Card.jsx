@@ -35,28 +35,8 @@ export default function Card() {
 					</ul>
 				</div>
 			</div>
-			<div className="min-[0px]:hidden md:hidden  lg:block mr-36  text-center float-right 
-						-mt-11 w-1/3 flex-col rounded-xl 
-						bg-white text-gray-700 shadow-2xl">
-				<div className="p-6 ">
-					<h5 className="mb-2 block font-sans 
-								text-xl font-semibold 
-								text-blue-gray-900 antialiased">
-						Career and Vacancy
-					</h5>
-					<i className="fa fa-handshake fa-2xl"></i>
-					<div className="text-left mt-4">
-						<span><i className="fa fa-envelope mr-2"></i> </span>
-						<span> career@eerc.com.np</span>
-					</div>
-					<div className="mt-2 text-left">
-					<span><i className="fa-solid fa-map-pin mr-2"></i> </span>
-                    M8PC+54G, Lalitpur 44600, Kathmandu
-<span className="pl-5">136,
-						Nepal</span>
-					</div>
-				</div>
-			</div>
+			<iframe className="  maps sm:" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.030738341657!2d85.31775997520516!3d27.68544482645749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19c8b9b9e217%3A0xd19bda6f193c60b6!2sEnvironment%20and%20Engineering%20Research%20Center%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1706298883336!5m2!1sen!2sin" ></iframe>
+
 		</div>
 	)
 }

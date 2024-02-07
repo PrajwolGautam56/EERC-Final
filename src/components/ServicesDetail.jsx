@@ -24,7 +24,7 @@ function ServicesDetail() {
       </div>
 
       {/* Content section for rendering services from JSON  */}
-      <div className="mt-5  grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="mt-5  grid grid-cols-1 md:grid-cols-3 gap-8 ">
         {services.services.map((service) => {
          
           return (

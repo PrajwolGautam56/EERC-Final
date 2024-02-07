@@ -60,7 +60,16 @@ body {
   background-image: url("/public/images/bg_service.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: contain; 
+  background-size: cover !important; 
  backdrop-filter: blur(1px);
   
+}
+
+.bg-news{
+  background-image: url("/public/images/newsbg.jpeg");
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover !important; 
+ backdrop-filter: blur(4px);
+
 }
