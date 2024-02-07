@@ -25,10 +25,20 @@
       "serviceId": 5,
       "description": "Tourism Development Plan, Periodic Development Plan, Water Use Master Plan, Solid Waste Assessment and Management Plan, WASH Plans, Local level Plans focusing on LISA guideline of MoFAGA."
     },
+
+    {
+
+      "name": "GIS and RS and ICT",
+      "serviceId": 6,
+      "description": "GIS and RS based Spatial Plan, Overall Spatial Mapping and Analysis, Digital Profile and Planning"
+    },
+    
     {
       "name": "Biodiversity and Ecosystem",
-      "serviceId": 6,
+      "serviceId": 7,
       "description": "Human wildlife Conflict study, Wildlife Assessments and Management Plan, habitat Suitability assessment, Training and capacity building on wildlife crime and conflict management"
     }
+     
+    
   ]
 }

@@ -63,10 +63,18 @@ const Testimonial = (props) => {
   };
 
   return (
+
     <div className={`${styles["section-three-main-div"]} testimonial py-3`}>
       <h2 className="text-center text-lg font-semibold leading-8 text-gray-900 py-2">
         What Client Say About Us
       </h2>
+
+    <div className="py-9">
+   <div className={`${styles["section-three-main-div"]} testimonial`}>
+ <h2 className="ext-center font-bold text-xl text-amber-500">
+            Testimonials
+          </h2>
+
       <div
         ref={refFeedbackParentDiv}
         className={styles["section-three-sub-div-one"]}
@@ -104,6 +112,9 @@ const Testimonial = (props) => {
         })}
       </div>
     </div>
+    </div>
+    </div>
+   
   );
 };
 

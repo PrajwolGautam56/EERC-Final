@@ -21,10 +21,10 @@ const Project = () => {
             </h1>{" "}
           </div>
           <br></br>
-          <p className=" font-sans	 Montserrat text-2xl  text-gray-700   font-medium	  float-right text-right">
-            Some Of the
-            <span className="text-[#5DB85E]  "> Key </span>
-            Hightlight Projects <br></br> done by EERC team in different fields.
+          <p className="  font-sans	 Montserrat text-xl   text-black   md:text-xl  font-medium	 mx-auto sm:text-sm  float-right text-right">
+          Unleashing
+            <span className="text-[#5DB85E]  "> Innovation  </span>
+             , Creativity and Excellence <br></br>  in our Pioneering Project.
           </p>
         </div>
 

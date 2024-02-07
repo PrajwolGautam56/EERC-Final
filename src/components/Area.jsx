@@ -49,22 +49,40 @@ function Area() {
           <span className="text-[#5DB85E] ">of the following </span> sectors.
         </p>
         <br></br>
+
+        <div className="p-12 dotted">
+          <div className="container mx-auto text-center p-5">
+            <h2 className="title  font-bold text-2xl  text-amber-500	  mb-8">
+              Areas of Work
+            </h2>
+
+            <br></br>
+          </div>
+
+          <div>
+            <ul className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-cols-1 lg:ml-48">
+              {icons.map((icon) => (
+                <li key={icon.imageUrl} className="flex p-4">
+                  <img
+                    src={icon.imageUrl}
+                    alt="Service 1"
+                    className="w-14 h-14 object-cover rounded-full"
+                  />
+                  <p className="p-2">{icon.name}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
+    </div>
+  );
+}
 
-      <div>
-        <ul className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-cols-1 lg:ml-48">
-          {icons.map((icon) => (
-            <li key={icon.imageUrl} className="flex p-4">
-              <img
-                src={icon.imageUrl}
-                alt="Service 1"
-                className="w-14 h-14 object-cover rounded-full"
-              />
-              <p className="p-2">{icon.name}</p>
-            </li>
-          ))}
+export default Area;
 
-          {/* <li className='flex lg:p-2 '>
+{
+  /* <li className='flex lg:p-2 '>
 
 <img
     src="public/images/services/1.png"
@@ -129,11 +147,5 @@ function Area() {
     className="w-20 h-20 object-cover rounded-full"
   />
 <p>Participatory Community Mapping (Hybrid Approach)</p>
-</li> */}
-        </ul>
-      </div>
-    </div>
-  );
+</li> */
 }
-
-export default Area;

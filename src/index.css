@@ -46,6 +46,7 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
+
 .maps {
   order: 0;
   margin-top: 14%;
@@ -60,4 +61,33 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: blur(1px);
+}
+
+.maps {
+  height: 450px;
+  width: 600px;
+}
+
+.bg_service {
+  background-image: url("images/services/bg.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  backdrop-filter: blur(1px);
+}
+
+.bg-news {
+  background-image: url("/public/images/newsbg.jpeg");
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  backdrop-filter: blur(4px);
+}
+
+.parent:nth-child(7) {
+  visibility: hidden !important;
+}
+
+.parent .grid > div:nth-child(3) {
+  visibility: hidden !important;
 }
