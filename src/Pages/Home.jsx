@@ -5,7 +5,6 @@ import Nav from "../components/Nav";
 import Newsletter from "../components/Newsletter";
 import ServicesDetail from "../components/ServicesDetail";
 import Project from "../components/Project";
-import ProjectSection from "../components/ProjectSection";
 import FooterWithSocialMediaIcons from "../components/FooterWithSocialMediaIcons";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import About from "../components/About";
@@ -16,6 +15,7 @@ import Ourteam from "../components/Ourteam";
 import Testimonial from "../components/Testimonial";
 import Gallery from "../components/Gallery";
 import data from "../data.json";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -35,28 +35,17 @@ export default function Home() {
               <br />
             </h2>
             <div className="banner-content-bottom flex pt-12">
-              <Button className="rounded-3xl w-44  bg-[#4848FE] font-bold text-xl">
+              <Button className="rounded-xl w-44  bg-[#818cf8] font-bold ">
                 {" "}
-                <a href="contact.html" className="text-xl">
-                  Contact Us <span></span>
-                </a>
+                <Link to="/contact" className="text-xl">
+                  {" "}
+                  Contact
+                </Link>
               </Button>
-              <ul className="flex ml-5 mt-2 p-2">
+              <ul className="flex ml-3  p-3">
                 <li className=" pl-5">
                   {" "}
-                  <FaFacebook />{" "}
-                </li>
-                <li className="  pl-5">
-                  {" "}
-                  <FaInstagram />{" "}
-                </li>
-                <li className=" pl-5">
-                  {" "}
-                  <FaTwitter />{" "}
-                </li>
-                <li className="  pl-5">
-                  {" "}
-                  <FaLinkedin />{" "}
+                  <FaFacebook className="h-8 w-8 hover:text-[#1877F2]" />{" "}
                 </li>
               </ul>
             </div>

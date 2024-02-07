@@ -55,7 +55,7 @@ body {
 }
 
 .bg_service {
-  background-image: url("/public/images/bg_service.jpeg");
+  background-color: #BFCABC;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

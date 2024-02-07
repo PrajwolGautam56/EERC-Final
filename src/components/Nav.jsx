@@ -1,6 +1,7 @@
 // Nav.js
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { Button } from "flowbite-react";
 
 function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -100,7 +101,10 @@ function Nav() {
               <li
                 className={`block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent`}
               >
-                Contact
+                {" "}
+                <Button className="rounded-xl p-2  bg-[#818cf8] font-bold text-xl">
+                  Contact
+                </Button>
               </li>
             </Link>
           </ul>
