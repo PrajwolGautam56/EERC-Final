@@ -8,7 +8,6 @@ import Project from "../components/Project";
 import FooterWithSocialMediaIcons from "../components/FooterWithSocialMediaIcons";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import About from "../components/About";
-import Team from "../components/Team";
 import Clients from "../components/Clients";
 import Area from "../components/Area";
 import Ourteam from "../components/Ourteam";
@@ -35,19 +34,14 @@ export default function Home() {
               <br />
             </h2>
             <div className="banner-content-bottom flex pt-12">
-              <Button className="rounded-xl w-44  bg-[#818cf8] font-bold ">
+              <Button className="rounded-xl w-36  bg-[#F59E0B] font-bold ">
                 {" "}
                 <Link to="/contact" className="text-xl">
                   {" "}
                   Contact
                 </Link>
               </Button>
-              <ul className="flex ml-3  p-3">
-                <li className=" pl-5">
-                  {" "}
-                  <FaFacebook className="h-8 w-8 hover:text-[#1877F2]" />{" "}
-                </li>
-              </ul>
+              <FaFacebook className=" w-4 h-4 p-4 pl-5 hover:text-[#1877F2]" />{" "}
             </div>
           </div>
         </div>
