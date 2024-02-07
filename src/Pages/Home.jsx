@@ -9,7 +9,7 @@ import ProjectSection from "../components/ProjectSection";
 import FooterWithSocialMediaIcons from "../components/FooterWithSocialMediaIcons";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import About from "../components/About";
-import Team from "../components/Team";
+// import Team from "../components/Team";
 import Clients from "../components/Clients";
 import Area from "../components/Area";
 import Ourteam from "../components/Ourteam";

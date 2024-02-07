@@ -49,15 +49,13 @@ body {
   background-position: center;
 }
 .maps{
-    order:0;
-    margin-top: 14% ;
-    margin-left: 55%;
-    height: 350px;
-    width: 500px;
+    
+    height: 450px;
+    width: 600px;
 }
 
 .bg_service{
-  background-image: url("/public/images/bg_service.jpeg");
+  background-image: url("images/services/bg.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover !important; 
@@ -72,4 +70,12 @@ body {
   background-size: cover !important; 
  backdrop-filter: blur(4px);
 
+}
+
+.parent:nth-child(7) {
+ visibility: hidden !important;
+}
+
+.parent .grid > div:nth-child(3) {
+  visibility: hidden !important;
 }

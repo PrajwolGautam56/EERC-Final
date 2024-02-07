@@ -2,9 +2,9 @@ import React from 'react'
 
 function Gallery() {
   return (
-    <div>
+    <div className='py-9 bg-slate-200'>
     <div className="container mx-auto text-center py-5 "> 
-        <h1 className="font-sans Montserrat  text-3xl font-bold text-black-500	  mb-8">Our Project's Gallery</h1>
+        <h1 className="font-sans Montserrat  font-bold text-2xl  text-amber-500		  mb-8">Our Project's Gallery</h1>
 </div>
 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 py-2">
     <div>

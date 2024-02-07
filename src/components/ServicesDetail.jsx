@@ -16,21 +16,20 @@ function ServicesDetail() {
         <div className="title py-4 font-extrabold text-2xl  tracking-wide ">
           <h1 className="text-left text-amber-500	"> Our Services</h1>{" "}
         </div>
-        <p className=" font-sans	 Montserrat text-xl   text-gray-700   md:text-xl  font-medium	 mx-auto sm:text-sm py-8">
-      <span className="text-[#5DB85E] sm:text-xl md:text-2xl " >EERC </span>  
-      is a consulting and research institute registered in  <br></br> 6th May 2016
-       the Office of Company Registrar Kathmandu.  
+        <p className=" font-sans	 Montserrat text-xl   text-white   md:text-xl  font-medium	 mx-auto sm:text-sm py-8">
+      <span className="text-[#5DB85E] sm:text-xl md:text-2xl " >EERC - </span>  
+      Empowering Progress through Innovative   <br></br> Engineering and Environmental Research
       </p>
       </div>
 
       {/* Content section for rendering services from JSON  */}
-      <div className="mt-5  grid grid-cols-1 md:grid-cols-3 gap-8 ">
+      <div className="mt-5  grid grid-cols-1 md:grid-cols-3 gap-8  parent place-content-center">
         {services.services.map((service) => {
          
           return (
             //
 
-            <div  key={service.serviceId} className="bg-transparent rounded backdrop-blur-sm shadow-lg hover:shadow-xl overflow-hidden flex flex-col md:flex-row transform transition-transform hover:scale-105">
+            <div  key={service.serviceId} className="place-content-center bg-transparent rounded backdrop-blur-sm shadow-lg hover:shadow-xl overflow-hidden flex flex-col md:flex-row transform transition-transform hover:scale-105">
               
               <div className="p-4">
                 <div className="relative">
@@ -42,11 +41,11 @@ function ServicesDetail() {
                 </div>
               </div>
               <div className="p-4 flex-1">
-                <h3 className="flex items-center text-xl font-semibold text-black mb-2">
+                <h3 className="flex items-center text-xl font-semibold text-white mb-2">
                   <i className="mr-2 fas fa-wrench"></i>
                   {service.name}
                 </h3>
-                <p className="text-back-200">{service.description}</p>
+                <p className="text-white">{service.description}</p>
               </div>
             </div>
             // </div>

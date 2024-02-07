@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from "react";
-import ContactPage from "../components/Contact";
 import Nav from "../components/Nav";
 import Contacts from "../components/Contacts";
 

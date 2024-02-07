@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section className="py-28 ">
     <div className="container mx-auto text-center ">
-      <h2 className="font-sans Montserrat  text-xl font-bold text-amber-500	  mb-8">About Us</h2>
+      <h2 className="font-sans Montserrat  text-2xl font-bold text-amber-500	  mb-8">About Us</h2>
       <p className=" font-sans	 Montserrat text-2xl  text-gray-700   font-medium	 mx-auto">
       <span className="text-[#5DB85E] " >EERC </span>  
       is a environment consulting and research institute registered in 6th May 2016 in

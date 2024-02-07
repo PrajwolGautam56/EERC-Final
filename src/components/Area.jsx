@@ -44,11 +44,11 @@ function Area() {
   return (
     <div className='p-12 dotted'>
         <div className="container mx-auto text-center p-5">
-            <h2 className="font-sans Montserrat  text-sml font-bold text-amber-500	  mb-8">Areas of Work</h2>
-            <p className=" font-sans	 Montserrat text-2xl  text-gray-700   font-medium	 mx-auto">
+            <h2 className="title  font-bold text-2xl  text-amber-500	  mb-8">Areas of Work</h2>
+            {/* <p className=" font-sans	 Montserrat text-2xl  text-gray-700   font-medium	 mx-auto">
             <span className="text-[#5DB85E] " >EERC, </span>  
             our works contribute to one or multiple  <span className="text-[#5DB85E] " >of the following </span>  sectors. 
-            </p>
+            </p> */}
             <br></br>
          </div>
  
