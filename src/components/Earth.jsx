@@ -7,6 +7,8 @@ import earthBumpTexture from "/texture/earthbump.jpg";
 import earthCloudTexture from "/texture/earthCloud.png";
 import galaxyTexture from "/texture/galaxy.png";
 import "../CSS/earth.css";
+import "../index.css"
+
 
 function Earth() {
   const canvasRef = useRef(null);
@@ -146,7 +148,7 @@ function Earth() {
   };
 
   return (
-    <div className="webgl earth min-h-screen bg-black">
+    <div className="webgl earth min-h-screen bg-black z-49 relative">
       <canvas
         ref={canvasRef}
         className="webgl earth hidden md:block  lg:w-2/3 lg:mx-auto"

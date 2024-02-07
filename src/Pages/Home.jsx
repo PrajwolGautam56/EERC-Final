@@ -5,10 +5,10 @@ import Nav from "../components/Nav";
 import Newsletter from "../components/Newsletter";
 import ServicesDetail from "../components/ServicesDetail";
 import Project from "../components/Project";
+import ProjectSection from "../components/ProjectSection";
 import FooterWithSocialMediaIcons from "../components/FooterWithSocialMediaIcons";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import About from "../components/About";
-
 import Clients from "../components/Clients";
 import Area from "../components/Area";
 import Ourteam from "../components/Ourteam";
@@ -16,6 +16,9 @@ import Testimonial from "../components/Testimonial";
 import Gallery from "../components/Gallery";
 import data from "../data.json";
 import { Link } from "react-router-dom";
+
+ 
+
 
 export default function Home() {
   return (
@@ -34,15 +37,30 @@ export default function Home() {
               <span className="text-[#5DB85E]"> Planet.</span>
               <br />
             </h2>
-            <div className="banner-content-bottom flex pt-12">
-              <Button className="rounded-xl w-36  bg-[#F59E0B] font-bold ">
-                {" "}
-                <Link to="/contact" className="text-xl">
-                  {" "}
-                  Contact
-                </Link>
+            <div className="banner-content-bottom flex pt-12 ">
+            <Link to="/contact">
+
+              <Button
+                
+                className="rounded-xl w-36 bg-[#F59E0B]   font-bold "
+              >
+              <span className="text-xl">
+                Contact
+              </span>
+                
+                
               </Button>
-              <FaFacebook className=" w-4 h-4 p-4 pl-5 hover:text-[#1877F2]" />{" "}
+            </Link>
+              <ul className="flex ml-5 mt-2 p-2">
+                <li className=" pl-5">
+                  {" "}
+                  <Link to="https://www.facebook.com/eercnepal">
+                  <FaFacebook />
+                  </Link>
+                 {" "}
+                </li>
+                 
+              </ul>
             </div>
           </div>
         </div>
@@ -58,14 +76,18 @@ export default function Home() {
           <Project />
 
           <Area />
+          
 
+        
           <Ourteam />
-
+         
           <Clients />
           <Testimonial testimonialData={data} />
-          <Gallery />
+           
           <Newsletter />
-
+          <Gallery />
+         
+          
           <FooterWithSocialMediaIcons />
         </div>
       </div>

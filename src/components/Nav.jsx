@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "flowbite-react";
+import "../index.css"
 
 function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -15,7 +16,7 @@ function Nav() {
     <nav
       className={`border-gray-200 ${
         isNavOpen ? "bg-black" : "bg-transparent"
-      }  dark:bg-gray-900`}
+      }  dark:bg-gray-900 z-50 relative`}
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -68,13 +69,15 @@ function Nav() {
                 Home
               </li>
             </Link>
+           
             <Link to="/about">
               <li
-                className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent`}
+                className={`block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent`}
               >
                 About
               </li>
             </Link>
+             
             <Link to="/projects">
               <li
                 className={`block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent`}
@@ -82,6 +85,15 @@ function Nav() {
                 Projects
               </li>
             </Link>
+            <Link to="/blog">
+              <li
+                className={`block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent`}
+                aria-current="page"
+              >
+                Blog
+              </li>
+            </Link>
+            
             <Link to="/gallery">
               <li
                 className={`block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent`}
@@ -89,13 +101,7 @@ function Nav() {
                 Gallery
               </li>
             </Link>
-            <Link to="/blogs">
-              <li
-                className={`block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent`}
-              >
-                Blog
-              </li>
-            </Link>
+            
 
             <Link to="/contact">
               <li

@@ -1,7 +1,7 @@
 import React from 'react'
 import Icons from './Icons'
 import Card from './Card'
-import Feedback from './Feedback'
+ 
 import FooterWithSocialMediaIcons from './FooterWithSocialMediaIcons'
 
 const Contacts = () => {

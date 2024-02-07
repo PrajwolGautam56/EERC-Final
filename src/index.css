@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
   background-color: #f8f8f8;
@@ -9,13 +9,15 @@ body {
   height: 100%;
 }
 
+
 .titleFont {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
 }
-.sub-title {
-  font-family: "Poppins", serif;
-  font-weight: 200;
+.sub-title{
+    font-family: "Poppins", serif;
+    font-weight: 200;
+
 }
 .landing-home {
   height: 800px;
@@ -46,46 +48,32 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
-
-.maps {
-  order: 0;
-  margin-top: 14%;
-  margin-left: 55%;
-  height: 350px;
-  width: 500px;
+.maps{
+    
+    height: 450px;
+    width: 600px;
 }
 
-.bg_service {
-  background-color: #bfcabc;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  backdrop-filter: blur(1px);
-}
-
-.maps {
-  height: 450px;
-  width: 600px;
-}
-
-.bg_service {
+.bg_service{
   background-image: url("images/services/bg.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover !important;
-  backdrop-filter: blur(1px);
+  background-size: cover !important; 
+ backdrop-filter: blur(1px);
+  
 }
 
-.bg-news {
+.bg-news{
   background-image: url("/public/images/newsbg.jpeg");
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
-  background-size: cover !important;
-  backdrop-filter: blur(4px);
+  background-size: cover !important; 
+ backdrop-filter: blur(4px);
+
 }
 
 .parent:nth-child(7) {
-  visibility: hidden !important;
+ visibility: hidden !important;
 }
 
 .parent .grid > div:nth-child(3) {
