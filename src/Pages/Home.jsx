@@ -5,20 +5,17 @@ import Nav from "../components/Nav";
 import Newsletter from "../components/Newsletter";
 import ServicesDetail from "../components/ServicesDetail";
 import Project from "../components/Project";
-import ProjectSection from "../components/ProjectSection";
 import FooterWithSocialMediaIcons from "../components/FooterWithSocialMediaIcons";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import About from "../components/About";
-// import Team from "../components/Team";
+
 import Clients from "../components/Clients";
 import Area from "../components/Area";
 import Ourteam from "../components/Ourteam";
 import Testimonial from "../components/Testimonial";
 import Gallery from "../components/Gallery";
 import data from "../data.json";
-
- 
-
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -38,33 +35,14 @@ export default function Home() {
               <br />
             </h2>
             <div className="banner-content-bottom flex pt-12">
-              <Button
-                gradientMonochrome="pink"
-                className="rounded-3xl w-44 font-bold text-xl"
-              >
+              <Button className="rounded-xl w-36  bg-[#F59E0B] font-bold ">
                 {" "}
-                <a href="contact.html" className="text-xl">
-                  Contact Us <span></span>
-                </a>
+                <Link to="/contact" className="text-xl">
+                  {" "}
+                  Contact
+                </Link>
               </Button>
-              <ul className="flex ml-5 mt-2 p-2">
-                <li className=" pl-5">
-                  {" "}
-                  <FaFacebook />{" "}
-                </li>
-                <li className="  pl-5">
-                  {" "}
-                  <FaInstagram />{" "}
-                </li>
-                <li className=" pl-5">
-                  {" "}
-                  <FaTwitter />{" "}
-                </li>
-                <li className="  pl-5">
-                  {" "}
-                  <FaLinkedin />{" "}
-                </li>
-              </ul>
+              <FaFacebook className=" w-4 h-4 p-4 pl-5 hover:text-[#1877F2]" />{" "}
             </div>
           </div>
         </div>
@@ -80,18 +58,14 @@ export default function Home() {
           <Project />
 
           <Area />
-          
 
-        
           <Ourteam />
-         
+
           <Clients />
           <Testimonial testimonialData={data} />
-           
-          <Newsletter />
           <Gallery />
-         
-          
+          <Newsletter />
+
           <FooterWithSocialMediaIcons />
         </div>
       </div>

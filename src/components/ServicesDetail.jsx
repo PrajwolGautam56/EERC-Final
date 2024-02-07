@@ -5,22 +5,24 @@ import services from "../API/services.json";
 function ServicesDetail() {
   return (
     <>
-   
-    <section className="bg_service  px-8 py-12">
-
-      {/* Heading section for Services */}
-      <div
-        data-aos=" justify zoom-in"
-        className="  mx-1 lg:text-5xl font-extrabold  "
-      >
-        <div className="title py-4 font-extrabold text-2xl  tracking-wide ">
-          <h1 className="text-left text-amber-500	"> Our Services</h1>{" "}
+      <section className="bg_service  px-8 py-12">
+        {/* Heading section for Services */}
+        <div
+          data-aos=" justify zoom-in"
+          className="  mx-1 lg:text-5xl font-extrabold  "
+        >
+          <div className=" py-4  text-xl   ">
+            <h1 className="text-left text-[#F59E0B]	"> Our Services</h1>{" "}
+          </div>
+          <p className=" font-sans	 Montserrat text-xl   text-gray-700   md:text-xl  font-medium	 mx-auto sm:text-sm py-8">
+            <span className="text-[#5DB85E] sm:text-xl md:text-2xl ">
+              EERC{" "}
+            </span>
+            is a consulting and research institute registered in <br></br> 6th
+            May 2016 the Office of Company Registrar Kathmandu.
+          </p>
         </div>
-        <p className=" font-sans	 Montserrat text-xl   text-white   md:text-xl  font-medium	 mx-auto sm:text-sm py-8">
-      <span className="text-[#5DB85E] sm:text-xl md:text-2xl " >EERC - </span>  
-      Empowering Progress through Innovative   <br></br> Engineering and Environmental Research
-      </p>
-      </div>
+
 
       {/* Content section for rendering services from JSON  */}
       <div className="mt-5  grid grid-cols-1 md:grid-cols-3 gap-8  parent place-content-center">
@@ -54,6 +56,7 @@ function ServicesDetail() {
       </div>
       </section> 
      
+
     </>
   );
 }

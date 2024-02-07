@@ -2,10 +2,10 @@ import React, { useEffect, useRef } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 
-import earthMapTexture from "../../public/texture/earthmap1k.jpg";
-import earthBumpTexture from "../../public/texture/earthbump.jpg";
-import earthCloudTexture from "../../public/texture/earthCloud.png";
-import galaxyTexture from "../../public/texture/galaxy.png";
+import earthMapTexture from "/texture/earthmap1k.jpg";
+import earthBumpTexture from "/texture/earthbump.jpg";
+import earthCloudTexture from "/texture/earthCloud.png";
+import galaxyTexture from "/texture/galaxy.png";
 import "../CSS/earth.css";
 
 function Earth() {
@@ -105,10 +105,10 @@ function Earth() {
       renderer.setSize(width, height);
 
       // For Adjusting the size of the Earth geometry based on the screen width
-      const scaleFactor = width < 1250 ? 0.6 : 1; 
+      const scaleFactor = width < 1250 ? 0.6 : 1;
       earthMesh.scale.set(scaleFactor, scaleFactor, scaleFactor);
 
-      const cloudScaleFactor = width < 1250 ? 0.63 : 1; 
+      const cloudScaleFactor = width < 1250 ? 0.63 : 1;
       cloudMesh.scale.set(cloudScaleFactor, cloudScaleFactor, cloudScaleFactor);
       const padding = width < 1200 ? -0.5 : 0; // Padding when screen size is below 1200
 

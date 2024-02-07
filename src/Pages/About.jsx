@@ -13,7 +13,7 @@ const About = () => {
   return (
     <>
       <Nav />
-      <div className="">
+      <div>
         <section className="dotted text-black h-[30vh] flex items-center justify-center relative overflow-hidden">
           <div className="text-center relative z-10">
             <h1 className="text-5xl font-extrabold mb-4 animate__animated animate__fadeIn animate__delay-1s Roboto-Slab">
@@ -48,7 +48,7 @@ const About = () => {
               <div className="lg:pr-0">
                 <div className="p-8 m-6">
                   <img
-                    class="float-left  w-200"
+                    className="float-left  w-200"
                     src="../../public/images/services/1.png"
                   />
 
@@ -83,15 +83,11 @@ const About = () => {
                         className="w-6 h-6"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          className="stroke-linecap-round stroke-linejoin-round stroke-width-2"
                           d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                         />
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          className="stroke-linecap-round stroke-linejoin-round stroke-width-2"
                           d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
                       </svg>
@@ -113,15 +109,11 @@ const About = () => {
                         className="w-6 h-6"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          className="stroke-linecap-round stroke-linejoin-round stroke-width-2"
                           d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                         />
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          className="stroke-linecap-round stroke-linejoin-round stroke-width-2"
                           d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
                       </svg>
@@ -143,15 +135,11 @@ const About = () => {
                         className="w-6 h-6"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          className="stroke-linecap-round stroke-linejoin-round stroke-width-2"
                           d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                         />
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          className="stroke-linecap-round stroke-linejoin-round stroke-width-2"
                           d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
                       </svg>
