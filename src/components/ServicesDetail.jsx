@@ -9,12 +9,12 @@ function ServicesDetail() {
         {/* Heading section for Services */}
         <div
           data-aos=" justify zoom-in"
-          className="  mx-1 lg:text-5xl font-extrabold  "
+          className="  mx-1 lg:text-5xl font-extrabold   "
         >
           <div className=" py-4  text-xl   ">
             <h1 className="text-left text-[#F59E0B]	"> Our Services</h1>{" "}
           </div>
-          <p className=" font-sans	 Montserrat text-xl   text-gray-700   md:text-xl  font-medium	 mx-auto sm:text-sm py-8">
+          <p className=" font-sans	 Montserrat text-xl   text-white  md:text-xl  font-medium	 mx-auto sm:text-sm py-8">
             <span className="text-[#5DB85E] sm:text-xl md:text-2xl ">
               EERC{" "}
             </span>
@@ -31,7 +31,7 @@ function ServicesDetail() {
           return (
             //
 
-            <div  key={service.serviceId} className="place-content-center bg-transparent rounded backdrop-blur-sm shadow-lg hover:shadow-xl overflow-hidden flex flex-col md:flex-row transform transition-transform hover:scale-105">
+            <div  key={service.serviceId} className="place-content-center bg-transparent rounded backdrop-blur-sm  shadow-lg hover:shadow-xl overflow-hidden flex flex-col md:flex-row transform transition-transform hover:scale-105">
               
               <div className="p-4">
                 <div className="relative">
