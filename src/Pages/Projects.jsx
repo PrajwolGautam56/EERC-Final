@@ -2,15 +2,14 @@
 import React from "react";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
-// import { BsTwitterX } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import Nav from "../components/Nav";
 import ServicesDetail from "../components/ServicesDetail";
-// import About from '../components/About';
 import services from "../API/services.json";
 import FooterWithSocialMediaIcons from "../components/FooterWithSocialMediaIcons";
 import Project from "../components/Project";
 import Clients from "../components/Clients";
+import ProjectsTable from "../components/ProjectsTable";
 
 const Projects = () => {
   return (
@@ -23,8 +22,6 @@ const Projects = () => {
               Areas of Work
             </h1>
             <p className="text-xl animate__animated animate__fadeIn animate__delay-2s Roboto-Slab text-[#5DB85E]"></p>
-
-           
           </div>
         </section>
 
@@ -191,8 +188,6 @@ const Projects = () => {
                       in almost 20 municipalities (rural and urban).
                     </p>
                   </div>
-
-                  {/* Similar blocks for other features */}
                 </div>
               </div>
             </div>
@@ -201,6 +196,9 @@ const Projects = () => {
       </div>
 
       <Project />
+
+      <ProjectsTable />
+
       <Clients />
 
       <FooterWithSocialMediaIcons />
