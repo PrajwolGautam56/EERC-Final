@@ -8,7 +8,7 @@ import Project from "../components/Project";
 import ProjectSection from "../components/ProjectSection";
 import FooterWithSocialMediaIcons from "../components/FooterWithSocialMediaIcons";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
-import About from "../components/About";
+import Abouts from "../components/Abouts";
 import Clients from "../components/Clients";
 import Area from "../components/Area";
 import Ourteam from "../components/Ourteam";
@@ -69,7 +69,7 @@ export default function Home() {
           {/* <img src="../../public/images/earth.png" alt="animated earth" className='pt-4 h-full w-full'  /> */}
 
           <Earth />
-          <About />
+          <Abouts />
 
           <ServicesDetail />
 
@@ -85,7 +85,7 @@ export default function Home() {
           <Testimonial testimonialData={data} />
            
           <Newsletter />
-          <Gallery />
+          
          
           
           <FooterWithSocialMediaIcons />

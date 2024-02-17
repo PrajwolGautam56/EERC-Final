@@ -16,10 +16,10 @@ function ServicesDetail() {
           </div>
           <p className=" font-sans	 Montserrat text-xl   text-white  md:text-xl  font-medium	 mx-auto sm:text-sm py-8">
             <span className="text-[#5DB85E] sm:text-xl md:text-2xl ">
-              EERC{" "}
+              EERC-{" "}
             </span>
-            is a consulting and research institute registered in <br></br> 6th
-            May 2016 the Office of Company Registrar Kathmandu.
+            Empowering Progress through Innovative  <br></br>  
+            Engineering and Environmental Research.
           </p>
         </div>
 

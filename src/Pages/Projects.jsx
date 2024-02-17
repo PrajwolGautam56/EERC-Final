@@ -23,27 +23,12 @@ const Projects = () => {
               Areas of Work
             </h1>
             <p className="text-xl animate__animated animate__fadeIn animate__delay-2s Roboto-Slab text-[#5DB85E]"></p>
-            <p className="text-[#5DB85E]"> Find us on</p>
 
-            <ul className="flex justify-center p-2 text-[#5DB85E]">
-              <li className=" pl-1">
-                {" "}
-                <BsFacebook />{" "}
-              </li>
-              <li className="  pl-5">
-                {" "}
-                <BsInstagram />{" "}
-              </li>
-              {/* <li className=' pl-5'> <BsTwitterX  /> </li> */}
-              <li className="  pl-5">
-                {" "}
-                <BsLinkedin />{" "}
-              </li>
-            </ul>
+           
           </div>
         </section>
 
-        <section className="py-3 ">
+        <section className="py-14">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
               <div className="lg:pr-0">

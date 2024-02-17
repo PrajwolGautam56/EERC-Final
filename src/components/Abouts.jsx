@@ -1,11 +1,11 @@
 import React from "react";
 import "../index.css"
 
-export default function About() {
+export default function Abouts() {
   return (
     <section className="py-28 aboutSection ">
       <div className="container mx-auto text-center ">
-        <h2 className="font-sans Montserrat  text-xl font-bold text-amber-500	  mb-8">
+        <h2 className="font-sans Montserrat  text-2xl font-bold text-amber-500	  mb-8">
           About Us
         </h2>
         <p className=" font-sans	 Montserrat text-2xl  text-gray-700   font-medium	 mx-auto">

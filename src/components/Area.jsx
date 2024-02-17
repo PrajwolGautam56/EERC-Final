@@ -10,7 +10,7 @@ const icons = [
     imageUrl: "public/images/icons/2.png",
   },
   {
-    name: "Digital Governance",
+    name: "Digital Mapping",
     imageUrl: "public/images/icons/3.png",
   },
   {
@@ -26,7 +26,7 @@ const icons = [
     imageUrl: "public/images/icons/6.png",
   },
   {
-    name: "Software Consulting & Digital Innovations",
+    name: "Geospatial Analysis",
     imageUrl: "public/images/icons/7.png",
   },
   {
