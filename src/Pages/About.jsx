@@ -9,6 +9,7 @@ import Abouts from "../components/Abouts";
 // import About from '../components/About';
 import services from "../API/services.json";
 import FooterWithSocialMediaIcons from "../components/FooterWithSocialMediaIcons";
+import Mission from "../components/Mission";
 
 const About = () => {
   return (
@@ -16,6 +17,7 @@ const About = () => {
       <Nav />
       
       <Abouts />
+      <Mission />
       <div>
         
         <br /> <br /> <br /> <br />
