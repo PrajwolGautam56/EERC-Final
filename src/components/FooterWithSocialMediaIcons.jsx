@@ -13,7 +13,7 @@ export default function FooterWithSocialMediaIcons() {
               alt="Flowbite Logo"
               href="#"
               name="EERC"
-              src="public/images/eercLogo.png"
+              src="images/eercLogo.png"
             />
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6 text-black">

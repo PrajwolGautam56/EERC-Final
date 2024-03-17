@@ -2,39 +2,39 @@ const people = [
     {
       name: 'Ajay Shrestha',
       role: 'Managing Director',
-      imageUrl:'public/images/team/ajay.jpg',
+      imageUrl:'images/team/ajay.jpg',
       url:'https://www.facebook.com/ajaya.shrestha.986'
     },
     {
         name: 'Purranjan Sapkota',
         role: 'Senior Environment Researcher',
        
-        imageUrl:'public/images/team/purranjan.jpeg',
+        imageUrl:'images/team/purranjan.jpeg',
         url:'https://www.facebook.com/sapkotap'
                 },
       {
         name: 'Annan Shrestha',
         role: 'GIS & RS Analys',
-        imageUrl:'public/images/team/annan.jpg',
+        imageUrl:'images/team/annan.jpg',
         url:'https://www.facebook.com/dial.annan'
                 },
       {
         name: 'Bijaya Rai',
         role: 'Senior Environment Researcher',
-        imageUrl: 'public/images/team/bijaya.jpg',
+        imageUrl: 'images/team/bijaya.jpg',
         url:'https://www.facebook.com/hated.person.146'
           
       },
       {
         name: 'Avash Poudel',
         role: 'DRRM-CAA Expert',
-        imageUrl:'public/images/team/avash.jpg',
+        imageUrl:'images/team/avash.jpg',
         url:'https://www.facebook.com/avash.env'
               },
       {
         name: 'Tara Ale',
         role: 'Environment Researcher ',
-        imageUrl:'public/images/team/tara.jpg',
+        imageUrl:'images/team/tara.jpg',
         url:'https://www.facebook.com/tara.ale.5'
         },
       

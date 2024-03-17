@@ -12,7 +12,7 @@ function Mission() {
               <div className="p-4">
                 <div className="relative">
                   <img
-                    src="public/images/mission.png"
+                    src="images/mission.png"
                     alt="Service 1"
                     className="w-20 h-30 object-cover rounded-full"
                   />
@@ -36,7 +36,7 @@ sector activities.</p>
               <div className="p-4">
                 <div className="relative">
                   <img
-                    src="public/images/vision.png"
+                    src="images/vision.png"
                     alt="Service 1"
                     className="w-20 h-30 object-cover rounded-full"
                   />
@@ -61,7 +61,7 @@ organizations.</p>
               <div className="p-4">
                 <div className="relative">
                   <img
-                    src="public/images/core.png"
+                    src="images/core.png"
                     alt="Service 1"
                     className="w-20 h-30 object-cover rounded-full"
                   />

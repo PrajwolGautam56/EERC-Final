@@ -3,35 +3,35 @@ import React from "react";
 const icons = [
   {
     name: "Disaster Risk Reduction & Management",
-    imageUrl: "public/images/icons/1.png",
+    imageUrl: "images/icons/1.png",
   },
   {
     name: "Development Planning & Management",
-    imageUrl: "public/images/icons/2.png",
+    imageUrl: "images/icons/2.png",
   },
   {
     name: "Digital Mapping",
-    imageUrl: "public/images/icons/3.png",
+    imageUrl: "images/icons/3.png",
   },
   {
     name: "Land Reform & Management",
-    imageUrl: "public/images/icons/4.png",
+    imageUrl: "images/icons/4.png",
   },
   {
     name: "Climate Change & Environment",
-    imageUrl: "public/images/icons/5.png",
+    imageUrl: "images/icons/5.png",
   },
   {
     name: "Agriculture",
-    imageUrl: "public/images/icons/6.png",
+    imageUrl: "images/icons/6.png",
   },
   {
     name: "Geospatial Analysis",
-    imageUrl: "public/images/icons/7.png",
+    imageUrl: "images/icons/7.png",
   },
   {
     name: "Heritage Conservation & Promotion",
-    imageUrl: "public/images/icons/8.png",
+    imageUrl: "images/icons/8.png",
   },
 
   // More people...

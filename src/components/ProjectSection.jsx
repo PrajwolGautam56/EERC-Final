@@ -225,6 +225,7 @@ const ProjectSection = () => {
                   • Impact Identification and Site-Specific Mitigation Measure
                   proposed
                 </li>
+                
                 <li>• Draft Report Preparation for Presentation</li>
                 <li>
                   • Final Report Preparation after incorporating comments and

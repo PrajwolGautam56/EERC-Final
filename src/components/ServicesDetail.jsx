@@ -36,7 +36,7 @@ function ServicesDetail() {
               <div className="p-4">
                 <div className="relative">
                   <img
-                    src={`public/images/services/${service.serviceId}.png`}
+                    src={`images/services/${service.serviceId}.png`}
                     alt="Service 1"
                     className="w-20 h-20 object-cover rounded-full"
                   />

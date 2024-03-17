@@ -1,51 +1,51 @@
 const client = [
   {
      
-    imageUrl:'public/images/clients/1.png'
+    imageUrl:'images/clients/1.png'
   },
   {
      
-    imageUrl:'public/images/clients/2.png'
+    imageUrl:'images/clients/2.png'
   },
   {
      
-    imageUrl:'public/images/clients/3.png'
+    imageUrl:'images/clients/3.png'
   },
   {
      
-    imageUrl:'public/images/clients/4.png'
+    imageUrl:'images/clients/4.png'
   },
   {
      
-    imageUrl:'public/images/clients/5.png'
+    imageUrl:'images/clients/5.png'
   },
   {
      
-    imageUrl:'public/images/clients/6.png'
+    imageUrl:'images/clients/6.png'
   },
   {
      
-    imageUrl:'public/images/clients/7.png'
+    imageUrl:'images/clients/7.png'
   },
   {
      
-    imageUrl:'public/images/clients/8.png'
+    imageUrl:'images/clients/8.png'
   },
   {
      
-    imageUrl:'public/images/clients/9.png'
+    imageUrl:'images/clients/9.png'
   },
   {
      
-    imageUrl:'public/images/clients/10.png'
+    imageUrl:'images/clients/10.png'
   },  
   {
      
-    imageUrl:'public/images/clients/11.png'
+    imageUrl:'images/clients/11.png'
   },  
   {
      
-    imageUrl:'public/images/clients/12.png'
+    imageUrl:'images/clients/12.png'
   },  
     
     
