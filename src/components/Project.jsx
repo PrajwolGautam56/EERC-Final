@@ -14,7 +14,7 @@ const Project = () => {
           data-aos=" justify zoom-in"
           className="   text-5xl font-extrabold   h-40"
         >
-          <div className="title  font-bold text-xl  tracking-wide  float-right">
+          <div className="title  font-bold text-2xl  tracking-wide  float-right">
             <h1 className="float-right text-right  text-amber-500	">
               {" "}
               Hightlight Projects

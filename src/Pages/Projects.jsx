@@ -11,27 +11,27 @@ import Project from "../components/Project";
 import Clients from "../components/Clients";
 import ProjectsTable from "../components/ProjectsTable";
 
+
 const Projects = () => {
   return (
     <>
       <Nav />
-      <div className="">
-        <section className="dotted text-black h-[30vh] flex items-center justify-center relative overflow-hidden">
-          <div className="text-center relative z-10">
-            <h1 className="text-3xl font-bold mb-4 animate__animated animate__fadeIn animate__delay-1s Roboto-Slab text-[#eda257]">
+      <div className=" mb-12">
+        
+
+        <section className="py-14">
+        <div className="text-center relative z-10 py-6 mb-8">
+            <h1 className="text-2xl font-bold mb-4 animate__animated animate__fadeIn animate__delay-1s Roboto-Slab text-[#eda257]">
               Areas of Work
             </h1>
             <p className="text-xl animate__animated animate__fadeIn animate__delay-2s Roboto-Slab text-[#5DB85E]"></p>
           </div>
-        </section>
-
-        <section className="py-14">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
               <div className="lg:pr-0">
-                <div className="space-y-4 float-right ml-4 pr-4 ">
+                <div className="space-y-4 float-right ml-3 pr-4 ">
                   <div className="flex items-center p-2  pr-4  ">
-                    <div className="w-12 h-12 bg-gradient-to-r from-info to-black text-black rounded-xl flex items-center justify-center  pr-4  ">
+                    <div className="w-12 h-12 bg-gradient-to-r from-info to-black text-black rounded-xl flex items-center justify-center  pr-3  ">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"

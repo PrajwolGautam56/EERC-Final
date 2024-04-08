@@ -28,7 +28,8 @@ export default function Home() {
         <div className="basis-5/5 -mt-12">
           <div className="banner-content-two  min-[10px]:pl-5 min-[400px]:px-8 min-[1250px]:px-28 pt-40  firstView text-[#ffffff] ">
             <br></br> <br></br>
-            <br></br>
+            <br></br> <br></br>
+            <br></br><br></br>
             <span className="sub-title  sm:text-md lg:text-xl ">
               Hey there! EERC welcomes you.
             </span>
@@ -38,34 +39,26 @@ export default function Home() {
               <br />
             </h2>
             <div className="banner-content-bottom flex pt-12 ">
-            <Link to="/contact">
-
-              <Button
-                
-                className="rounded-xl w-36 bg-[#F59E0B]   font-bold "
-              >
-              <span className="text-xl">
-                Contact
-              </span>
-                
-                
-              </Button>
-            </Link>
-              <ul className="flex ml-5 mt-2 p-2">
-                <li className=" pl-5">
-                  {" "}
-                  <Link to="https://www.facebook.com/eercnepal">
-                  <FaFacebook />
-                  </Link>
-                 {" "}
-                </li>
-                 
-              </ul>
+          
+             
             </div>
           </div>
         </div>
+        <div>
+        <div className="container-scroll">
+  <div className="chevron"></div>
+  <div className="chevron"></div>
+  <div className="chevron"></div>
+  <span className="text-scroll">Scroll down</span>
+</div>
+        </div>
+
+    
 
         <div className=" earthComponent">
+
+
+        
           {/* <img src="../../public/images/earth.png" alt="animated earth" className='pt-4 h-full w-full'  /> */}
 
           <Earth />

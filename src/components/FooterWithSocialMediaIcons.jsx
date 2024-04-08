@@ -5,7 +5,7 @@ import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 
 export default function FooterWithSocialMediaIcons() {
   return (
-    <Footer container className="bg-gray-300  text-black">
+    <Footer container className="bg-[#F2F7F6]  text-black">
       <div className="w-full " >
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
@@ -14,16 +14,22 @@ export default function FooterWithSocialMediaIcons() {
               href="#"
               name="EERC"
               src="images/eercLogo.png"
-            />
+            /><br></br>
+            <p className='text-slate-500	'>
+            EERC is a pioneering consulting and research<br></br>
+            institute committed to addressing the intricate <br></br>
+            challenges at the intersection of development and <br></br>
+            the environment.
+            </p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6 text-black">
-            <div className="text-black">
+            <div className="text-black-6">
               <Footer.Title title="about" className="text-black" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#" className='text-black'>
+                <Footer.Link href="/about" className='text-slate-500	'>
                   About Us
                 </Footer.Link>
-                <Footer.Link href="#" className='text-black'>
+                <Footer.Link href="/contact" className='text-slate-500	'>
                   Contact Us
                 </Footer.Link>
               </Footer.LinkGroup>
@@ -31,7 +37,7 @@ export default function FooterWithSocialMediaIcons() {
             <div>
               <Footer.Title title="Follow us" className="text-black"/>
               <Footer.LinkGroup col>
-                <Footer.Link href="https://www.facebook.com/eercnepal" className='text-black'>
+                <Footer.Link href="https://www.facebook.com/eercnepal" className='text-slate-500	'>
                   Facebook
                 </Footer.Link>
                  
@@ -40,10 +46,10 @@ export default function FooterWithSocialMediaIcons() {
             <div>
               <Footer.Title title="Legal" className="text-black" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#" className='text-black'>
+                <Footer.Link href="#" className='text-slate-500'>
                   Privacy Policy
                 </Footer.Link>
-                <Footer.Link href="#" className='text-black'>
+                <Footer.Link href="#" className='text-slate-500	'>
                   Terms & Conditions
                 </Footer.Link>
               </Footer.LinkGroup>

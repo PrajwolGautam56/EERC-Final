@@ -2,7 +2,7 @@ import React from 'react'
 
 function Mission() {
   return (
-    <div>
+    <div className='px-8'>
       <div className="mt-5  grid grid-cols-1 md:grid-cols-3 gap-8  parent place-content-center px-5">
          
          

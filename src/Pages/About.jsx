@@ -10,6 +10,10 @@ import Abouts from "../components/Abouts";
 import services from "../API/services.json";
 import FooterWithSocialMediaIcons from "../components/FooterWithSocialMediaIcons";
 import Mission from "../components/Mission";
+import ServicesInner from "../components/ServicesInner";
+import Ourteam from "../components/Ourteam";
+import Testimonial from "../components/Testimonial";
+import data from "../data.json";
 
 const About = () => {
   return (
@@ -21,11 +25,10 @@ const About = () => {
       <div>
         
         <br /> <br /> <br /> <br />
+        <ServicesInner />
          
-        <div className="bg-gray-100">
-          {/* Company History Section */}
-       
-          {/* Services Section */}
+        {/* <div className="bg-gray-100">
+         
 
           <section className="bg-white py-16">
             <div className="container mx-auto text-center">
@@ -47,20 +50,27 @@ const About = () => {
                   );
                 })}
 
-                {/* Service Card 1 */}
-
                 
-
-                {/* Service Card 2 */}
-                
-
-                {/* Service Card 3 */}
                 
               </div>
             </div>
           </section>
-        </div>
+
+
+        </div> */}
+
+
+
+
+
+
+
+
+
       </div>
+
+      <Ourteam />
+      <Testimonial testimonialData={data} />
 
       <FooterWithSocialMediaIcons />
     </>
