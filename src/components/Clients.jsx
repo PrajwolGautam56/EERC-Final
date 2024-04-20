@@ -47,6 +47,30 @@ const client = [
      
     imageUrl:'images/clients/12.png'
   },  
+  {
+     
+    imageUrl:'images/clients/13.png'
+  }, 
+  {
+     
+    imageUrl:'images/clients/14.png'
+  }, 
+  {
+     
+    imageUrl:'images/clients/15.png'
+  },  {
+     
+    imageUrl:'images/clients/16.png'
+  },  {
+     
+    imageUrl:'images/clients/17.png'
+  },  {
+     
+    imageUrl:'images/clients/18.png'
+  },  {
+     
+    imageUrl:'images/clients/19.png'
+  }, 
     
     
   // More people...

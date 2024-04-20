@@ -1,4 +1,3 @@
-// Nav.js
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "flowbite-react";
@@ -18,7 +17,7 @@ function Nav() {
         isNavOpen ? "bg-black" : "bg-transparent"
       }  dark:bg-gray-900 z-50 relative`}
     >
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 py-12">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="images/eercLogo.png"
@@ -85,12 +84,12 @@ function Nav() {
                 Projects
               </li>
             </Link>
-            <Link to="/blog">
+            <Link to="/newsletter">
               <li
-                className={`block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:hover:text-white md:dark:hover:bg-transparent`}
+                className={`block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 dark:text-white md:dark:hover:bg-transparent`}
                 aria-current="page"
               >
-                Blog
+                Newsletter
               </li>
             </Link>
             

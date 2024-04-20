@@ -6,6 +6,8 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Home from "./Home";
 import Gallerypage from "./Gallerypage";
+import Team from "./Team";
+import Newsletter from "./Newsletter";
 
 function Body() {
   const appRouter = createBrowserRouter([
@@ -20,12 +22,20 @@ function Body() {
       element: <About />,
     },
     {
+      path: "/team",
+      element: <Team />,
+    },
+    {
       path: "/blogs",
       element: <Blogs />,
     },
     {
       path: "/projects",
       element: <Projects />,
+    },
+    {
+      path: "/newsletter",
+      element: <Newsletter />,
     },
     {
       path: "gallery",

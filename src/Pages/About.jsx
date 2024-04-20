@@ -14,6 +14,7 @@ import ServicesInner from "../components/ServicesInner";
 import Ourteam from "../components/Ourteam";
 import Testimonial from "../components/Testimonial";
 import data from "../data.json";
+import Equitable from "../components/Equitable";
 
 const About = () => {
   return (
@@ -68,6 +69,7 @@ const About = () => {
 
 
       </div>
+      <Equitable />
 
       <Ourteam />
       <Testimonial testimonialData={data} />

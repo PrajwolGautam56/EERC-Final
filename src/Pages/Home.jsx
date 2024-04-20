@@ -49,7 +49,7 @@ export default function Home() {
   <div className="chevron"></div>
   <div className="chevron"></div>
   <div className="chevron"></div>
-  <span className="text-scroll">Scroll down</span>
+  {/* <span className="text-scroll">Scroll down</span> */}
 </div>
         </div>
 

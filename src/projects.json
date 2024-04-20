@@ -1,5 +1,155 @@
 {
     "projects": [
+
+      {
+        "namw": "Status of Climate Finance in Nepal and Development of Climate Resilience Strategy for OXFAM in Nepal",
+        "client": "OXFAM in Nepal",
+        "Budget": 794390,
+        "date": "2080/81"
+      },
+      {
+        "namw": "Research on Nexus between Climate and Development in Nepal",
+        "client": "DCA Nepal",
+        "Budget": 372900,
+        "date": "2080/81"
+      },
+      {
+        "namw": "Research on Strengthening Disaster preparedness of local government in Karnali Province, Impact of Climate Change and Food System in Urban Center of Nepal, Sustainable development in Mahakali River Basin",
+        "client": "DCA Nepal",
+        "Budget": 1292000,
+        "date": "2080/81"
+      },
+      {
+        "namw": "Two days Knowledge Sharing to local government officials on Climate Change Updates & Gender Responsive Budgeting",
+        "client": "RDC Nepal/OXFAM",
+        "Budget": 74415,
+        "date": "2080/81"
+      },
+      {
+        "namw": "Assessment of the State of Ecosystem Services and Identification of the Major Threats and Socio-Economic Barriers to the Conservation of the Mutani Khola Watershed, Siraha District, Nepal",
+        "client": "CARE Nepal",
+        "Budget": 577200,
+        "date": "2080/81"
+      },
+      {
+        "namw": "Tracking Disaster Risk Reduction Finance Flow in Nepal",
+        "client": "OXFAM in Nepal",
+        "Budget": 841850,
+        "date": "2080/81"
+      },
+      {
+        "namw": "DRR Governance and Data Collection at Provinces",
+        "client": "Mercy Corps Nepal",
+        "Budget": 363499,
+        "date": "2080/81"
+      },
+      {
+        "namw": "Assessment and Training Package on Climate Change Adaptation and Nature- Based Solutions (NbS)",
+        "client": "IFRC/British Redcross funded",
+        "Budget": 1808565,
+        "date": "2080/81"
+      },
+    {
+      "namw": "Piloting Low-Cost Landslide Risk Assessment and development of contingency plan/ DPRP revision of Sanni-tribeni rural municipality, Kalikot District",
+      "client": "NRCS Surkhet/Swiss Funded",
+      "Budget": 1987670,
+      "date": "2080/81"
+    },
+    {
+      "namw": "Simulation Exercise at three working palikas(Annapurna RM, Madi RM and Maiwakhola RM",
+      "client": "Gorkha Welfare Trust Nepal",
+      "Budget": 315000,
+      "date": "2080/81"
+    },
+    {
+      "namw": "Review and Formulation of Policy related to Climate Change and Disaster Management at the local level",
+      "client": "RDC Nepal/OXFAM in Nepal",
+      "Budget": 257933,
+      "date": "2080/81"
+    },
+    {
+      "namw": "Preparation of Disaster Preparedness and Response Plan Yangwarak Rural Municipality, Panchthar-Koshi province",
+      "client": "Yangwarak Rural Municipality",
+      "Budget": 1196670,
+      "date": "2080/81"
+    },
+    {
+      "namw": "Flood/Inundation Hazard Mapping and Overland Water Flow Modelling of West Rapti Basin",
+      "client": "CRS Nepal",
+      "Budget": 1824385,
+      "date": "2080/81"
+    },
+    {
+      "namw": "Outocme Survey of Climate Adaptation Interventions",
+      "client": "Tayar Nepal/USAID",
+      "Budget": 2141632.50,
+      "date": "2080/81"
+    },
+    {
+      "namw": "Technical Report Write up for Initial Environment Examination of 15 different Specified Road under RCIP-GoN",
+      "client": "RCIP-ADB funded Sub-Contract with Inclusive-ITECO JV",
+      "Budget": 600000,
+      "date": "2080/81"
+    },
+    {
+      "namw": "After Action review Guideline Preparation During Year Two to review the Effectiveness of Emergency Response At the local Level led by the Local Disaster management Committee(LDMC)",
+      "client": "Mercy Corps/USAID",
+      "Budget": 459910,
+      "date": "2080/81"
+    },
+    {
+      "namw": "Detailed Project Report and BES Study Report Preparation For Construction Of Administrative Building Of Bhumlu RM",
+      "client": "Bhumlu RM, Kavrepalanchowk",
+      "Budget": 1998000,
+      "date": "2080/81"
+    },
+    {
+      "namw": "Preparation Of Project Document and Baseline Report for The Proposed Project Nature Based Solutions (Nbs) For Resilient Lower Narayani Basin in Nepal",
+      "client": "WWF Nepal /DANIDA Funded",
+      "Budget": 2999693,
+      "date": "2080/81"
+    },
+    {
+      "namw": "Review of Legal Policy Framework and Capacity Assessment Related to Natural Resource Safeguards in Linear Infrastructure",
+      "client": "WWF Nepal/USAID Funded-ALIGN Project",
+      "Budget": 3067950,
+      "date": "2080/81"
+    },
+   
+  
+  
+  
+  {
+    "namw": "Final Evaluation and End-Line Survey – Food Security Enhancement and Agriculture Resilience of Earthquake Affected Rural Nepalese Farmers, Phase-II (FOSTER-II) Project",
+    "client": "ADRA Nepal",
+    "Budget": 742410,
+    "date": "2080/81"
+  },
+  {
+    "namw": "DPRP review and update of 3 paliaks of Surkhet along with update of DPRP of Surkhet District",
+    "client": "BNA /Mercy Corps-USAID Funded",
+    "Budget": 380810,
+    "date": "2080/81"
+  },
+  {
+    "namw": "DPRP Preparation/Udpate of two Paliaks of Jumla Distrcit",
+    "client": "KIRDARC-/Mercy Corps-USAID Funded",
+    "Budget": 198880,
+    "date": "2080/81"
+  },
+  {
+    "namw": "Development of Local Adaptation Plan of Action of Mugum Karmarog RM",
+    "client": "Mott Macdonald / Mugum Karmarog RM, Pulu-Mugu, Karnali province",
+    "Budget": 400000,
+    "date": "2079/80"
+  },
+  {
+    "namw": "Assessment of Waste Management And Recommend Practical Solutions At The Local Level Of Doti And Bajhang Districts in the CLIMATES project area",
+    "client": "United Mission to Nepal",
+    "Budget": 639787,
+    "date": "2079/80"
+  },
+  
       {
         "Name": 1,
         "namw": "Assessment of Waste Management And Recommend Practical Solutions At The Local Level Of Doti And Bajhang Districts in the CLIMATES project area",
@@ -568,3 +718,11 @@
       }
     ]
   }
+
+
+
+ 
+
+
+ 
+  

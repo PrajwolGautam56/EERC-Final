@@ -16,10 +16,8 @@ export default function FooterWithSocialMediaIcons() {
               src="images/eercLogo.png"
             /><br></br>
             <p className='text-slate-500	'>
-            EERC is a pioneering consulting and research<br></br>
-            institute committed to addressing the intricate <br></br>
-            challenges at the intersection of development and <br></br>
-            the environment.
+            Registration Number : 148886/072/073 <br />
+            Contact Number : +977-9841525256
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6 text-black">

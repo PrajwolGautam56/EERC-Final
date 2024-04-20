@@ -18,12 +18,12 @@
     {
       "name": "Monitoring and Evaluation",
       "serviceId": 4,
-      "description": "Baseline, Midline, End line survey and Evaluation."
+      "description": "Baseline, Midline, End line survey , Outcome Assessment and Evaluation."
     },
     {
       "name": "Development Planning",
       "serviceId": 5,
-      "description": "Tourism Development Plan, Periodic Development Plan, Water Use Master Plan, Solid Waste Assessment and Management Plan, WASH Plans, Local level Plans focusing on LISA guideline of MoFAGA."
+      "description": "Tourism Development Plan, Periodic Development Plan, Water Use Master Plan, Solid Waste Assessment and Management Plan, WASH Plans, Local level Plans focusing on LISA guideline of MoFAGA, RSLUP."
     },
 
     {
@@ -37,6 +37,12 @@
       "name": "Biodiversity and Ecosystem",
       "serviceId": 7,
       "description": "Human wildlife Conflict study, Wildlife Assessments and Management Plan, habitat Suitability assessment, Training and capacity building on wildlife crime and conflict management"
+    },
+
+    {
+      "name": "GEDSI Assessment and Planning",
+      "serviceId": 7,
+      "description": "EDSI assessment and planning refer to processes aimed at ensuring that programs, projects, or services are inclusive and address the needs of diverse groups"
     }
      
     

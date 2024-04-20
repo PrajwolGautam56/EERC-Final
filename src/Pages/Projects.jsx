@@ -16,6 +16,8 @@ const Projects = () => {
   return (
     <>
       <Nav />
+
+      {/*
       <div className=" mb-12">
         
 
@@ -107,7 +109,7 @@ const Projects = () => {
                     </p>
                   </div>
 
-                  {/* Similar blocks for other features */}
+                 
                 </div>
               </div>
               <div className="mr-4 lg:ml-0 mt-6 lg:mt-0 pr-4 ">
@@ -191,9 +193,18 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
+          
         </section>
       </div>
+
+
+
+
+
+
+
+    */}
 
       <Project />
 
